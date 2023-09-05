@@ -1,8 +1,7 @@
 
-# Welcome! ...🚀 
+# Stage Branch! ...🚀 
 
-This repository will be used for upcoming Project & Portfolio activity. We will use it to keep track of research, development, and experimentation conducted in this class. Follow the instructions below to get started.
-
+This repository will be used to keep track of **`development`** and **`experimentation`** for this class. 
 <br>
 
 # Project & Portfolio IV
