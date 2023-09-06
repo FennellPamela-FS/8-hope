@@ -1,4 +1,4 @@
-# [Concept Name]
+# 8Hope 
 
 ## Application Definition Statement
 
@@ -6,8 +6,7 @@
 
 *Clarity over quantity should be the focus, to that end, creating visuals/charts to explain the more complex data or logical points could help to reinforce your Application’s Definition Statement.*
 
-[ Replace this text with your Application Definition Statement ] 
-
+> #### Introducing `8Hope`, your gateway to divine timing. Explore prayer watches effortlessly, enrich your spiritual journey, and find consistency in your daily devotion. Join us and discover the power of faith and time.
 
 ## Target Market
 
@@ -15,16 +14,36 @@
 
 *Primary Research is research that you have conducted yourself and is not based on secondary sources. Examples of Primary Research include surveys, interviews, and focus groups. This doesn't have to be formal in nature and can include discussions you have with individuals that are likely users of your application. Secondary Research is research that has been conducted by others and is based on their findings. Examples of Secondary Research include market research reports, industry publications, and news articles.*
 
-[ Replace this text with a description of any Primary and Secondary research you conducted to determine the Target Market for your application. Link to any references used during this research. ]
+**Primary Research Findings:**
+> Through two distinct focus groups, I gained valuable insights into potential users and their needs for the prayer watch application.
+> - **Focus Group 1 - Women's Retreat** 
+> - **Focus Group 2 - Siblings Seeking Purposeful Prayer**
 
+**Secondar Research Findings:**
+> I explored various online sources to gain insights into the concept of the 8 prayer watches. These sources provided valuable information about the significance of each watch, their historical context, and their relevance in modern spiritual practices.
+> - Dutch Sheets Ministries: Dutch Sheets, a prominent figure in Christian ministry, has authored books and conducted teachings on the subject of prayer watches. His work delves into the importance of aligning prayer with specific times and seasons, drawing from biblical references.
+> - Dutch Sheets Ministries Website: [https://dutchsheets.org/](https://dutchsheets.org/)
+> - **Book:** Watchman Prayer.
+
+<br>
 
 ## User Profile / Persona
 
 *User profiles are a snapshot of an actual person and helps to open a window into the mind of an actual user and will provide insight while tailoring and refining interaction details to best fit your ideal users within your Target Market.*
 
+> Sarah represents a motivated and tech-savvy user who resonates with the concept of prayer watches and seeks to integrate them into her spiritual journey, especially during her recurring nighttime awakenings at 3 am.
 
-[ Replace this text with a User Profile / Persona for your application. If necessary, research 'Web User Persona' to generate ideas. ]
-
+**Web User Persona - Sarah**
+**Name:** Sarah
+**Age:** 28
+**Occupation:** Front-end Web Developer
+**Location:** North Carolina
+**Spiritual Beliefs:** Strong Christian faith
+**Hobbies:** Volunteering for the American Red Cross, attending church services
+**Tech Savviness:** Proficient in using digital tools
+**Goals:** Strengthen her connection with her faith, find spiritual consistency. Use her wakeful moments at 3 am for purposeful prayer and spiritual growth
+**Motivation:** Inspired by the concept of the 8 prayer watches and eager to explore and understand them better
+**Expectations from 8Hope:** Expects the app to help her learn about and track prayer watches, provide reminders, and deepen her connection with her faith through purposeful nighttime prayers.
 
 ## Use Cases
 
