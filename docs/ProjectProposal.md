@@ -95,6 +95,25 @@
 
 [ Replace this text with a list of Key Features and Functionality for your application. Include a description of each feature and how it will solve a specific problem or pain point. For example, 'Playlist: The user will have the ability to create a playlist of songs they want to listen to while working out. This will allow them to listen to the music they want to hear while working out.' ]
 
+**Key Features:** 
+
+`User friendly Onboarding`
+> In order joint the app I need to create a smooth onboarding process that explains the purpose of the app and how it can help the user. 
+
+`Customizable Prayer Watches`
+> In order to allow users to align their prayer routines with their specific sleep patterns, I need to allow users to set their preferred prayer watches and times. 
+
+`Educational Content`
+> Include a dedicated section with comprehensive information about the 8 prayer watches, in order to address the users' limited understanding.
+
+`Push Notifications` 
+> Implement customizable push notifications to remind users of prayer watch times. These reminders can help them make the most of their nighttime awakenings for purposeful prayer.
+
+`Feedback Mechanism` 
+> Include a feedback option within the app, so the user can provide input on their experience and suggest improvements.
+
+
+
 
 ## Integrations 
 
