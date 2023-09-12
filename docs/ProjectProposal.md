@@ -79,6 +79,11 @@
 
 [ Replace this text with a description of the Competition for your application. Include any Research that supports your description. Competition can be direct or indirect. Direct competition is a product that solves the same problem as your application. Indirect competition is a product that solves a similar problem as your application. ]
 
+### Indirect Competition
+- Active Christians: The 8 Prayer Watches [activechristians.org.uk](https://www.activechristians.org.uk/prayer-watches1/8-prayer-watches)
+- Royal Girlz: The 8 Prayer Watches [royalgirlz.com](https://royalgirlz.com/category/the-8-prayer-watches/)
+
+
 
 ## Features & Functionality
 
@@ -91,7 +96,7 @@
 [ Replace this text with a list of Key Features and Functionality for your application. Include a description of each feature and how it will solve a specific problem or pain point. For example, 'Playlist: The user will have the ability to create a playlist of songs they want to listen to while working out. This will allow them to listen to the music they want to hear while working out.' ]
 
 
-## Integrations
+## Integrations 
 
 API that are planned to be used with this project:
 - API.Bible: [Documentation](https://docs.api.bible/)
