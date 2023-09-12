@@ -93,4 +93,9 @@
 
 ## Integrations
 
-*Use of an API is expected. This can be 3rd party APIs, your own API, or a combination of data sets. Identify which integrations are planned for and outline how you will use them transformatively. For 3rd party APIs provide links to their respective documentation and verify that your intended use complies with their Terms of Service.*
+API that are planned to be used with this project:
+- API.Bible: [Documentation](https://docs.api.bible/)
+> - to display the verse of the day
+> - to search the scriptures that go with 1 of the 8 prayer watches
+
+Compliance with [Terms of Service](https://scripture.api.bible/): This project is in compliance with the FUMSv3. 
