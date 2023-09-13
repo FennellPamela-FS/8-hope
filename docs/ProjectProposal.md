@@ -31,19 +31,36 @@
 
 *User profiles are a snapshot of an actual person and helps to open a window into the mind of an actual user and will provide insight while tailoring and refining interaction details to best fit your ideal users within your Target Market.*
 
+**User Persona: EMILY - Focus Group 1 Participant**           
+> Emily is a user who, like others in Focus Group 1, experiences disrupted sleep patterns and is motivated to use these moments for spiritual growth. She represents someone with a moderate level of tech proficiency but a strong desire to deepen her connection with her faith through the exploration of prayer watches.
+  
+- **Name**: Emily
+- **Age**: 34
+- **Location**: North Carolina
+- **Occupation**: Registered Nurse
+- **Spiritual Beliefs**: Christian faith
+- **Sleep Pattern**: Often experiences disrupted sleep, frequently waking up at 4 am
+- **Tech Proficiency**: Comfortable with basic technology but not a tech expert
+- **Interest in Prayer**: Regularly attends church services and is active in her church community
+- **Goal**: Seeks a deeper connection with her faith and wants to find meaning in her nighttime awakenings
+- **Motivation**: Intrigued by the concept of the 8 prayer watches discussed during the mountain retreat, eager to explore them for spiritual growth
+- **Expectations from the App**: Hopes that the app will help her understand and engage with the prayer watches, offering guidance and reminders for nighttime prayer.
+
+
+**User Profile: SARAH - Focus Group 2 Participant**                       
 > Sarah represents a motivated and tech-savvy user who resonates with the concept of prayer watches and seeks to integrate them into her spiritual journey, especially during her recurring nighttime awakenings at 3 am.
 
-**Web User Persona - Sarah**
-**Name:** Sarah
-**Age:** 28
-**Occupation:** Front-end Web Developer
-**Location:** North Carolina
-**Spiritual Beliefs:** Strong Christian faith
-**Hobbies:** Volunteering for the American Red Cross, attending church services
-**Tech Savviness:** Proficient in using digital tools
-**Goals:** Strengthen her connection with her faith, find spiritual consistency. Use her wakeful moments at 3 am for purposeful prayer and spiritual growth
-**Motivation:** Inspired by the concept of the 8 prayer watches and eager to explore and understand them better
-**Expectations from 8Hope:** Expects the app to help her learn about and track prayer watches, provide reminders, and deepen her connection with her faith through purposeful nighttime prayers.
+- **Name:** Sarah         
+- **Age:** 28         
+- **Occupation:** Front-end Web Developer         
+- **Location:** North Carolina        
+- **Spiritual Beliefs:** Strong Christian faith       
+- **Hobbies:** Volunteering for the American Red Cross, attending church services         
+- **Tech Savvy-ness:** Proficient in using digital tools          
+- **Goals:** Strengthen her connection with her faith, find spiritual consistency. Use her wakeful moments at 3 am for purposeful prayer and spiritual growth         
+- **Motivation:** Inspired by the concept of the 8 prayer watches and eager to explore and understand them better         
+- **Expectations from 8Hope:** Expects the app to help her learn about and track prayer watches, provide reminders, and deepen her connection with her faith through purposeful nighttime prayers.        
+
 
 ## Use Cases
 
