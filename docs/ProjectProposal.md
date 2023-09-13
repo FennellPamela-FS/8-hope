@@ -70,31 +70,85 @@
 
 [ Describe two or more Use Cases for your application. Use a bulleted list to describe the steps involved in each Use Case. ]
 
+Use Case #1  
+ 1. **Brief Description:** Introduce Emily to the 8Hope web app and provide her with a smooth onboarding experience, that will walk her through the purpose and customer her journey     
+ 2. **Actor:**  Emily is a 34 year-old registered nurse with an interest in deepening her connection with her faith, who experiences frequent sleep disruptions and often wakes up at 4 am.
+ 3. **Precondition:** Emily is connected to the internet and has accessed the 8Hope web app on her phone.
+ 4. **Basic flow:** 
+    - Emily launches the web app and is greeted by the welcome screen. 
+    - Welcome screen display's the logo, app name, and tagline: "Discover a Divine Time to Pray". 
+    - Next she taps "Get Started" which takes Emily through introduction to the purpose of the app.
+    - The introduction is a series of screens that briefly describe the 8 prayer watches and how 8Hope can help her make the most of her 4 am awakenings.    
+    - Next Emily can "Explore Features" and setup her User Profile
+    - Customize app experience by selecting her preferred prayer watch and setting her notifications.
+    - After completing her onboarding experience Emily is welcomed to the 8Hope community and is ready to begin her spiritual journey with the app.
+ 5. **Alternate flow:**  If Emily encounters any difficulties during onboarding, she can access a "Help" section or reach out to in-app support for assistance.
+ 6. **Expectation flow:** As Emily begins to visit the app regularly, she will be able to 
+    - Customize Prayer Watches
+    - Read through educational content that provides detailed information about the 8 prayer watches
+    - Use Push notifications to reminder her of prayer watch times called "Divine Time"
+ 7. **Post Conditions:**
+    - Emily's user profile is set up with her preferences.
+    - Emily is now familiar with the app's features and purpose.
+
 
 ## Problem Statement
 
 *In a few sentences explain the problem your target market is seeing that requires this project to be built. This will identify why is your application needed and needs to be supported by Primary Research.*
 
-[ Replace this text with a Problem Statement for your application. Include any Research that supports your Problem Statement. ]
-
+> Many individuals, like Emily and Sarah, experience recurring sleep disruptions, waking up at unusual times during the night. These moments of wakefulness often leave them wondering about their purpose and seeking meaning in the early hours. Additionally, both focus groups have expressed a desire to explore and understand the 8 prayer watches, recognizing an opportunity for purposeful prayer during these sleepless nights. However, the lack of accessible and user-friendly tools that provide educational resources, reminders, and a sense of community around the concept of prayer watches is a significant challenge.
 
 ## Pain Points
 
 *Explain your audience’s pain points that are contributing to their defined problem and their impact on the user. Primary Research should support your explanations.*
 
-[ Replace this text with a description of the Pain Points your audience is experiencing. Include any Research that supports your Pain Points. ]
+Both Emily and Sarah share pain points related to sleep disruptions, a desire for purposeful nighttime prayer, and the need for a user-friendly app that helps them understand and engage with the concept of prayer watches effectively.
+
+### Based on the Primary Research with Focus Group 1            
+**Pain Points for Emily:**
+
+1. **Sleep Disruptions**: Emily experiences frequent sleep disruptions, particularly waking up at 4 am. This disrupts her rest and leaves her feeling fatigued.
+
+2. **Lack of Purpose**: She often wonders why she wakes up at 4 am and struggles to find purpose in these moments of wakefulness.
+
+3. **Limited Knowledge**: Emily is intrigued by the concept of the 8 prayer watches but lacks comprehensive knowledge about them. She finds it challenging to explore and understand this spiritual practice.
+
+4. **Tech Challenges**: While not entirely tech-averse, Emily is not a tech expert. She may face challenges in using complicated or poorly designed apps.
+
+### Based on the Primary Research with Focus Group 2            
+**Pain Points for Sarah:**
+
+1. **Recurring Nighttime Awakenings**: Sarah frequently wakes up at 3 am, which can be frustrating and disrupt her sleep cycle.
+
+2. **Desire for Purposeful Prayer**: She desires to use her wakeful moments for purposeful prayer and spiritual growth but lacks guidance on how to do so effectively.
+
+3. **Tech Expectations**: As a web developer, Sarah likely has high expectations for user-friendly and well-designed apps. She may be frustrated with apps that don't meet these standards.
+
+4. **Limited Understanding**: Sarah is eager to explore the 8 prayer watches, but her limited understanding of them may lead to confusion or uncertainty about how to engage with them.
+
 
 ## Solution Statement
 
 *How is your project going to solve the problem outlined above? Consider the competing products in your market space. What makes your solution different from other’s attempts to solve the problem? How are you able to better solve the defined problem for your audience than your competition?*
 
-[ Replace this text with a Solution Statement for your application. Include any Research that supports your Solution Statement. ]
+This app introduces customized preferences and notification reminders to help address this problem, there is a clear need for the development of the 8Hope app. This app will serve as a user-friendly and informative platform that empowers individuals like Emily and Sarah to find purpose in their nighttime awakenings by providing educational resources about the 8 prayer watches, customizable prayer schedules, push notifications for prayer times, and a community where users can share their experiences and spiritual growth journeys. Although there are a number of competitors and/or resources that explain the 8 prayer watches, the 8Hope app creates a customized experience for the user to utilize on demand is quickly accessible not only online but from their phone as well.
 
 ## Competition
 
 *What competing products exist to solve this or a similar problem? Identify and summarize competing products and how their approach to solving your identified problem differ from your own.*
 
 [ Replace this text with a description of the Competition for your application. Include any Research that supports your description. Competition can be direct or indirect. Direct competition is a product that solves the same problem as your application. Indirect competition is a product that solves a similar problem as your application. ]
+
+### Direct Competition
+- Every Home for Christ 
+>- [Pray without Ceasing](https://everyhome.org/prayer/)
+>- [Prayer Watch Live Web](https://prayerwatchlive.org/)
+>- [Prayer Watch Live Mobile](https://play.google.com/store/apps/details?id=org.ehc.prayerwatchlive)
+- First 5 [Web](https://first5.org/about/#downloadappcta) and [App](https://play.google.com/store/apps/details?id=com.crowdhub.first5)
+- Prayer App [Focus with our Prayer App](https://createdisciples.com/prayer-app/?gad=1&gclid=Cj0KCQjwmICoBhDxARIsABXkXlIp8L-tOhoHF0BAbV7wVfss3w6UOtF-XqBnthdawzqBbZQN0egjpokaAsP9EALw_wcB)
+- Prayer Watch [Prayer Times & Qibla w/ Widget](https://apps.apple.com/us/app/pray-watch/id989923828)
+- Watch + Pray [Website](https://watchandprayapp.com/) and [App](https://play.google.com/store/apps/details?id=com.watch.mobile&hl=en_US&gl=US)
+
 
 ### Indirect Competition
 - Active Christians: The 8 Prayer Watches [activechristians.org.uk](https://www.activechristians.org.uk/prayer-watches1/8-prayer-watches)
