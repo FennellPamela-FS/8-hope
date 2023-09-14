@@ -49,12 +49,17 @@ Wireframes demonstrates a simple layout that outlines the specific size and plac
 
 <br>
 
-## Sub-Topic 2 - Replace with your sub-topic
+## Sub-Topic 2 - Style
 Brief overview of research. 
 
-* Key finding 1...
-* 2
-* 3 
+* The Style Tile is a tool to get the design process started
+* Brand Fonts
+    - be memorable
+    - be legible
+    - be functional cross-platform
+    - be a reflect of your brand personality
+* Color Theory: choosing the right colors
+* Textures 
 
 <br>
 
@@ -78,18 +83,11 @@ The defining parts of your story lives in ...
 ## Reference Links
 Use this section to highlight your own independent research. Replace the example references below with your own links and recommended resources. For example...
 
-**Resource 1: Title**  
-[Name of Site or Article Here](https://www.someaddress.com/full/url/): Here's what I learned about...  
+**Resource 1: Style Tile**  
+[What is a Style Tile?](https://bootcamp.uxdesign.cc/style-tiles-a1805d9fb271): Used to collate the styles and assets used to design the UI, helping to establish consistency with the brand throughout the project.
 
-**Resource 2: Title**    
-[Name of Site or Article Here](https://www.someaddress.com/full/url/): This site showed me how to...
+**Resource 2: Style Tile**    
+[Why making a style tile is part of our design process](https://level-level.com/blog/why-we-use-a-style-tile/): Develop the visiual direction for your project using style tiles.
 
-**Resource 3: Title**      
-[Name of Site or Article Here](https://www.someaddress.com/full/url/): This article explains that...
-
-<br>
-
-**Note:**  
-
-* It is acceptable to provide multiple links for a single sub-topic.  
-* Be sure to explain what resource(s) you found most helpful for the current milestone. 
+**Resource 3: Brand Fonts**
+[Everything You Need to Know About Picking Brand Fonts](https://venngage.com/blog/brand-fonts/)
