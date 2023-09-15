@@ -194,3 +194,6 @@ API that are planned to be used with this project:
 > - to search the scriptures that go with 1 of the 8 prayer watches
 
 Compliance with [Terms of Service](https://scripture.api.bible/): This project is in compliance with the FUMSv3. 
+
+# Figma Prototype
+[8 HOPE PROTOTYPE](https://www.figma.com/file/6gMMjwYUALqI9pTyBa6cvG/StyleTile?type=design&node-id=0%3A1&mode=design&t=JGLOxvhZdRNpccdb-1)
