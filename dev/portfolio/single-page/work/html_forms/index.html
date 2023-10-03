@@ -1,0 +1,88 @@
+<!-- 
+    Pamela Fennell
+    1/24/2022
+    CE06: HTML Forms
+ -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/style.css">
+    <title>CE06: HTML Forms</title>
+</head>
+<body>
+    <h1>Fill'er Up</h1>
+    <h3>A form to help calculate Baking Conversions</h3>
+    <p>If you have a baking project, then we are here to help. Let us help you convert those gallons of milk to either quarts, pints, or cups.</p>
+
+    <br>
+    <!-- FORM 1: Fill'er Up -->
+    <form id="fillerUP">
+        <!-- Number of Gallons -->
+        <input type="number" id="userGallons" step=".01" min="0" required><label for="userGallons">How many gallons of milk to you have?</label>
+        <br><br>
+
+
+        <fieldset><!-- Radio buttons-->
+            <!-- Conversion Choices: quarts, pints, cups -->
+            <input type="radio" name="convChoices" value="4" id="qtChoice" checked><label for="qtChoice">Quarts</label>
+            <input type="radio" name="convChoices" value="8" id="ptChoice"><label for="ptChoice">Pints</label>
+            <input type="radio" name="convChoices" value="16" id="cupChoice"><label for="cupChoice">Cups</label>
+        </fieldset>
+        <br>
+
+        <!-- Button to start Conversion Process -->
+        <input type="button" id="startConv" value="Start Conversion">
+        <br>
+
+        <!-- # text fields for results -->
+        <input type="text" id="qtAns"><label for="qtAns">Quarts</label>
+        <br>
+        <input type="text" id="ptAns"><label for="ptAns">Pints</label>
+        <br>
+        <input type="text" id="cupAns"><label for="cupAns">Cups</label>
+        <br>
+
+    </form>
+
+    <h1>Movie Star</h1>
+    <h3>Time to Rank up your Movie Stars</h3>
+    <p>Welcome ot the Movie Club. The form will help you calculate the number movie formats you have, to help determine your ranking in the club.</p>
+
+    <br>
+    <!-- FORM 2: Movie Star -->
+    <form id="movieStar">
+        <!-- 3 Number inputs -->
+        <p>How many of the following movie formats do you own? <br> Enter the number of each then click the button to see your Club ranking.</p>
+        <!-- DVDs -->
+        <input type="number" id="numDVD" min="0" required><label for="numDVD">Number of DVDs</label> 
+        <br>
+        <!-- Blu-Rays -->
+        <input type="number" id="numBlu" min="0" required><label for="numBlu">Number of Blu-Rays</label> 
+        <br>
+
+        <!-- UltraViolets --> 
+        <input type="number" id="numUV" min="0" required><label for="numUV">Number of UltraViolets</label> 
+        <br>
+
+        <!-- Start Button -->
+        <input type="button" id="ranking" value="How do you Rank?">
+        <br>
+
+        <!-- Final Results -->
+        <h1 id="showRanking"></h1>
+
+        <!-- Show Movie Banner Image -->
+        <img id="showBanner" height="460">
+
+    </form>
+
+
+
+
+    <script src="JS/script.js"></script>
+</body>
+</html>
