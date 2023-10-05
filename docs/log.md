@@ -62,7 +62,14 @@ Each week I will summarize my milestone activity and progress by writing a stand
 <br>
 ### Week 4
 
-My final stand up ...
+⚙️ Overview - Presentation
+<br>
+🌵 Challenges - Ran into an issue after implementing ES Lint into my project, got that resolved but then I couldn't find that in my repo.
+<br>
+🏆 Accomplishments - I leveled up on adding items to my portfolio. I did my presentation on app-click-through
+<br>
+🔮 Next Steps - What I plan to prioritize and do next, resolve the issue with my repo. Improve my understanding of project planning, workflow, and project management. 
+
 
 <br>
 
