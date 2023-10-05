@@ -51,14 +51,21 @@ Each week I will summarize my milestone activity and progress by writing a stand
 <br>
 ### Week 3
 
-Stay tuned, this stand up is coming soon...
-
-### Week 4
-
-My final stand up...
-
-
-
-
+⚙️ Overview - Planning
+<br>
+🌵 Challenges - Implementing plans for production as it relates to workflow
+<br>
+🏆 Accomplishments - Developed a prototype using figma and improved upon project proposal
+<br>
+🔮 Next Steps - What I plan to prioritize and do next is preparing for app click-through and presentation
 
 <br>
+### Week 4
+
+My final stand up ...
+
+<br>
+
+
+
+
