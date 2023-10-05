@@ -4,7 +4,7 @@
 
 
 # Project & Portfolio
-### First & Last Name 
+### Pamela Fennell 
 
 
 ![Degree Program](https://img.shields.io/badge/degree-web%20development-blue.svg)&nbsp; 
@@ -28,12 +28,27 @@ Each week I will summarize my milestone activity and progress by writing a stand
 
 ### Week 1
 
-Replace this paragraph with your stand up for this week. Use the prompts above to summarize your most recent milestone activity and work.
+⚙️ Overview - Discovery and Workflow
+<br>
+🌵 Challenges - I struggled understanding the workflow between branches 
+<br>
+🏆 Accomplishments - I came up with an idea for my final project and began working on my proposal
+<br>
+🔮 Next Steps - Improve and practice workflow.
+
+<br>
 
 ### Week 2
 
-My next stand up will go here...
+⚙️ Overview - What I worked on this past week
+<br>
+🌵 Challenges - What problems did I have & how I'm addressing them
+<br>
+🏆 Accomplishments - What is something I "leveled up" on this week
+<br>
+🔮 Next Steps - What I plan to prioritize and do next
 
+<br>
 ### Week 3
 
 Stay tuned, this stand up is coming soon...
