@@ -40,13 +40,13 @@ Each week I will summarize my milestone activity and progress by writing a stand
 
 ### Week 2
 
-⚙️ Overview - What I worked on this past week
+⚙️ Overview - Application Design with Wireframes, Structure, Branding, Style
 <br>
-🌵 Challenges - What problems did I have & how I'm addressing them
+🌵 Challenges - This week, I struggled to convert requirements into issues to help me reach project milestones efficiently. Additionally, I couldn't find my updates in the log file. 
 <br>
-🏆 Accomplishments - What is something I "leveled up" on this week
+🏆 Accomplishments - I continued to make progress on my proposal. Wireframes and Style tile came out well.
 <br>
-🔮 Next Steps - What I plan to prioritize and do next
+🔮 Next Steps - Developing structure, continue to improve on project management with actionable tasks for milestones.
 
 <br>
 ### Week 3
