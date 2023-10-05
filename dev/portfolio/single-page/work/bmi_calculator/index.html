@@ -1,0 +1,49 @@
+<!-- 
+    Pamela Fennell
+    1/26/2022
+    CEO7: Final Project
+ -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/style.css">
+    <title>CE07: Final Project</title>
+</head>
+<body>
+    <h1>Body Mass Calculator</h1>
+    <h3>Do you know your BMI?</h3>
+    <p>Fill out the form to calculate your body mass index, based on your height and weight.</p>
+   
+    <form id="calculateBMI">
+
+        <!-- 2 inputs for height: feet, inches -->
+        <input type="number" id="feet" min="1" max="8" required><label for="feet"> Feet</label>
+        <input type="number" id="inches" min="0" max="11.99" step=".01" required><label for="inches"> Inches</label>
+        <br><br>
+
+        <!-- input for weight -->
+        <input type="number" id="weight" min="0.1" max="1400" step="any" required><label for="weight"> Enter your weight in lbs</label>
+        <br><br>
+
+        <!-- button to calculate BMI -->
+        <input type="button" id="calcBMI" value="Calculate Your BMI">
+        <!-- button to reset calculator -->
+        <input type="reset" id="tryAgain">        
+        <br><br>
+
+        <!-- h1 tag to display Final Results -->
+        <h1 id="finalResults"></h1>
+        <br><br>
+
+        <!-- Display Image based on Weight Range -->
+        <img id="rangePic" height="460">
+
+    </form>
+    
+
+    <script src="JS/script.js"></script>
+</body>
+</html>

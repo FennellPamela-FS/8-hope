@@ -4,7 +4,7 @@
 
 
 # Project & Portfolio
-### First & Last Name 
+### Pamela Fennell 
 
 
 ![Degree Program](https://img.shields.io/badge/degree-web%20development-blue.svg)&nbsp; 
@@ -28,22 +28,51 @@ Each week I will summarize my milestone activity and progress by writing a stand
 
 ### Week 1
 
-Replace this paragraph with your stand up for this week. Use the prompts above to summarize your most recent milestone activity and work.
+⚙️ Overview - Discovery and Workflow
+<br>
+🌵 Challenges - I struggled understanding the workflow between branches 
+<br>
+🏆 Accomplishments - I came up with an idea for my final project and began working on my proposal
+<br>
+🔮 Next Steps - Improve and practice workflow.
+
+<br>
 
 ### Week 2
 
-My next stand up will go here...
+⚙️ Overview - Application Design with Wireframes, Structure, Branding, Style
+<br>
+🌵 Challenges - This week, I struggled to convert requirements into issues to help me reach project milestones efficiently. Additionally, I couldn't find my updates in the log file. 
+<br>
+🏆 Accomplishments - I continued to make progress on my proposal. Wireframes and Style tile came out well.
+<br>
+🔮 Next Steps - Developing structure, continue to improve on project management with actionable tasks for milestones.
 
+<br>
 ### Week 3
 
-Stay tuned, this stand up is coming soon...
+⚙️ Overview - Planning
+<br>
+🌵 Challenges - Implementing plans for production as it relates to workflow
+<br>
+🏆 Accomplishments - Developed a prototype using figma and improved upon project proposal
+<br>
+🔮 Next Steps - What I plan to prioritize and do next is preparing for app click-through and presentation
 
+<br>
 ### Week 4
 
-My final stand up...
-
-
-
+⚙️ Overview - Presentation
+<br>
+🌵 Challenges - Ran into an issue after implementing ES Lint into my project, got that resolved but then I couldn't find that in my repo.
+<br>
+🏆 Accomplishments - I leveled up on adding items to my portfolio. I did my presentation on app-click-through
+<br>
+🔮 Next Steps - What I plan to prioritize and do next, resolve the issue with my repo. Improve my understanding of project planning, workflow, and project management. 
 
 
 <br>
+
+
+
+
