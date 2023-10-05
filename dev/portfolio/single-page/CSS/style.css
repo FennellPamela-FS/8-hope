@@ -1,0 +1,15 @@
+/* 
+    Pamela Fennell
+    4.5 Single Page Portfolio
+    02/25/2022  
+*/
+
+body {
+    background-color: azure;
+}
+
+.pam-bg {
+    background-image: url("../IMG/pam_bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
