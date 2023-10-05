@@ -49,6 +49,7 @@ Each week I will summarize my milestone activity and progress by writing a stand
 🔮 Next Steps - Developing structure, continue to improve on project management with actionable tasks for milestones.
 
 <br>
+
 ### Week 3
 
 ⚙️ Overview - Planning
@@ -60,6 +61,7 @@ Each week I will summarize my milestone activity and progress by writing a stand
 🔮 Next Steps - What I plan to prioritize and do next is preparing for app click-through and presentation
 
 <br>
+
 ### Week 4
 
 ⚙️ Overview - Presentation
