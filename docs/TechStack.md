@@ -37,10 +37,10 @@
 ***
 
 # Change Order
-Provide the following informaton:
 
-* Confirm this document summarizes the proposed tech stack: Yes or ? 
-* Is there any additional tool or technology you may like to use for this project given enough time?
-* List and describe any proposed changes to the original tech stack
+* This document summarizes the proposed tech stack.
+* Given enough time, I'd like to include a notification system that would alert the user if a friend or user is also praying doing the same time. Maybe something as simple as a green light on a know user list.
+* List and describe any proposed changes to the original tech stack. 
+- * I want to look more into state management instead of learning something knew with Redux. 
 
 Keep in mind, approval is needed for proposed work and may include peer or instructor review(s). If you are unsure about your proposed ideas feel free to reach out to us for guidance.   
