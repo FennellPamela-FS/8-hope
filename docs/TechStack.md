@@ -47,3 +47,15 @@ Express is a popular framework to power an API. Describe your idea for building 
 A popular solution for relational database work is to utilize Sequelize as an ORM. Are you familiar with migrations, models, and seeding? What tools and solutions do you propose for your application? For example, utilizing an ORM to build out models with full validated CRUD.
 
 - In a couple of classes we learned about migrations, models, and seeding. One thing I remember about learning Sequelize as an ORM is that Sequelize can simplify database interactions in a MERN stack to handle the management of the database relationship like the one between users and tweets. Providing a way to define and work with associations, where one user has many tweets or a tweet belongs to one user. Sequelize will use this association to simplify management of the database, making it easier to build complex data structures for MERN applications.
+
+<br>
+***
+
+# Change Order
+Provide the following informaton:
+
+* Confirm this document summarizes the proposed tech stack: Yes or ? 
+* Is there any additional tool or technology you may like to use for this project given enough time?
+* List and describe any proposed changes to the original tech stack
+
+Keep in mind, approval is needed for proposed work and may include peer or instructor review(s). If you are unsure about your proposed ideas feel free to reach out to us for guidance.   
