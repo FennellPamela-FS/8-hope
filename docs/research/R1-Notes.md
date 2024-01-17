@@ -42,16 +42,17 @@ Brief overview of research.
 <br>
 
 
-## Sub-Topic 3 - Replace with your sub-topic
+## Sub-Topic 3 - Discovery
 Brief overview of research. 
 
-* Key finding 1...
-* 2
-* 3 
-
+As I went through the process of answering key questions to prepare for Kick-Off I discovered that I needed to:
+* 1: Revisit and Confirm the Use of the Bible.API to make sure I can use it and then move the issue to begin implementation until next week. 
+* 2: Developing the 30-second pitch requires a strict focus on a key feature that reveals a solution to the pain point that the app will solve (Purpose, Main Features, Benefit statement).
+* 3: Although the idea and concept are outlined in the project proposal it still needs to begin development for project initiation. 
 
     
 <br>
+
 
 ## Reference Links
 Use this section to highlight your own independent research. Replace the example references below with your own links and recommended resources. For example...
