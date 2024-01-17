@@ -21,12 +21,15 @@ This document contains general notes related to...
 ## Sub-Topic 1 - GitHub Workflows
 Brief overview of research. 
 
-* Key finding 1: When using branches be mindful to fetch whats on your repo to sync with and update what you have locally.
-* Key finding 2: Use `git fetch` then `git branch`
-* Key finding 3:  Understand how to apply the chart for  
-> | Branch | Pull Request | Who Approves |
+* 1: When using branches be mindful to fetch what's on your repo to sync with and update what you have locally.
+* 2: Use `git fetch` then `git branch`
+* 3: Understand how to apply the chart for  > | Branch | Pull Request | Who Approves |
+* 4: Simplified Feature Branch Workflow Resource as refresher to this process.
+* 5: Merge and Pull Requests (PR) are essentially the same thing. Merge locally, PR remotely.
+
 
 <br>
+
 
 ## Sub-Topic 2 - Creating Issues
 Brief overview of research. 
