@@ -34,11 +34,13 @@ Brief overview of research.
 ## Sub-Topic 2 - Creating Issues
 Brief overview of research. 
 
-* Key finding 1...
-* 2
-* 3 
+* 1. Working with Issues and Project views I discovered that you can select and then drag content from other cells to copy that data across multiple cells at once, very similar to Excel.
+* 2. I also realized creating issues should be closely connected with actionable items that would be implemented.
+* 3. You can comment and close an issue after marking it done to eliminate extra steps.
+* 4. Using clear titles, and detailed descriptions helps explain the problem, assigning labels, and creating a label that makes it easy to identify what the issue is related to. 
 
 <br>
+
 
 ## Sub-Topic 3 - Replace with your sub-topic
 Brief overview of research. 
