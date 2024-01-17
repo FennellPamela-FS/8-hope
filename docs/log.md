@@ -1,7 +1,5 @@
 
-# Log ...🚀 
-
-# Project & Portfolio
+# 🚀 Project Initiation
 ### Pamela Fennell 
 
 
