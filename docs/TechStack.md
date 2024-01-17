@@ -15,7 +15,7 @@
 
 ## State Management
 
-- **Zustand** for state management - used to maintain and update data across your applications, and can be used as middleware to handle making API calls. 
+- **Zustand** for state management - used to maintain and update data across your applications, and can be used as middleware to handle making API calls. Zustand is a small, fast and scaleable bearbones state-management solution. It has a simple API and doesn't require boilerplate code.
 
 ## Node
 
@@ -40,7 +40,7 @@
 * List and describe any proposed changes to the original tech stack. 
 The following changes have been made to the tech stack:
 
-    1. **State Management**: Zustand has been added for state management. Zustand is a small, fast and scaleable bearbones state-management solution. It has a simple API and doesn't require boilerplate code.
+    1. **State Management**: Replace Redux with Zustand for state management. 
 
     2. **API Integration**: The Bible API (https://bibleapi.co/) will be integrated into the application to access scriptures from the Bible. This will allow us to display relevant scriptures in our application.
 
