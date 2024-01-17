@@ -1,5 +1,5 @@
 // Set up a basic Express server
-
+require("dotenv").config('.env')
 const express = require('express');
 const app = express();
 const port = process.env.PORT || 5000;
