@@ -168,10 +168,14 @@ Compliance with [Terms of Service](https://scripture.api.bible/): This project i
 ***
 
 # Change Order
-Provide the following informaton:
 
-* Confirm the proposal document summarizes the project scope: Yes or ? 
-* Describe how much work is left to do ( a rough estimate is fine )
+* The proposal document summarizes the project scope. 
+* Work that is need to reach completion:
+   - * implement and create features
+   - * develop features functionality
+   - * implement UI design and color scheme
+   - * integration API
 * List and describe any proposed changes to the original project scope
+   - * implement friend notifications
 
 Keep in mind, approval is needed for proposed work and may include peer or instructor review(s). If you are unsure about your proposed ideas feel free to reach out to us for guidance.   
