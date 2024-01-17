@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<!-- 
+    Pamela Fennell
+    4.5 Single Page Portfolio
+    02/25/2022 
+-->
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="CSS/style.css" rel="stylesheet">
+    <title>4.5 Single Page Portfolio</title>
+
+    <!-- tailwindcss -->
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+    <!-- Navigation -->
+    <header class="bg-sky-900">
+        <div class="flex flex-wrap flex-row p-6 bg-sky-900 justify-between items-center relative">
+            <a href="#">
+                <img src="IMG/pam_Logo_ltrs.png" alt="" class="h-20">
+            </a>
+            <h1 class="text-white text-4xl font-sans">Pamela's Portfolio</h1>
+            <div class="hidden sm:block sm:ml-6">
+                <nav class="flex flex-col md:flex-row md:space-x-10 p-4 md:p-0 w-full md:w-auto">
+                    <a href="#" class="text-blue-100 hover:bg-gradient-to-r from-cyan-500 to-blue-500 hover:text-white rounded uppercase p-3">Home</a>
+                    <a href="#about" class="text-blue-100 hover:bg-gradient-to-r from-cyan-500 to-blue-500 hover:text-white rounded uppercase p-3">About</a>
+                    <a href="#work" class="text-blue-100 hover:bg-gradient-to-r from-cyan-500 to-blue-500 hover:text-white rounded uppercase p-3">Work</a>
+                    <a href="#skills" class="text-blue-100 hover:bg-gradient-to-r from-cyan-500 to-blue-500 hover:text-white rounded uppercase p-3">Skills</a>
+                    <a href="#contact" class="text-blue-100 hover:bg-gradient-to-r from-cyan-500 to-blue-500 hover:text-white rounded uppercase p-3">Contact</a>
+                </nav>
+            </div>
+        </div>
+    </header>   
+
+    <!-- About  -->
+    <div class="top-100 flex flex-col md:flex-row">
+        <!-- Profile Pic section  -->
+        <div class="pam-bg bg-purple-900 md:w-1/4">
+            <!-- image of ben and erin -->
+            <div class="grid justify-items-center">
+                <p class="p-5 text-center text-white"><img src="IMG/profilePic-full.jpeg" alt="Pamela Fennell" class="w-80 sm:rounded-lg md:w-auto card rounded-lg md:rounded-full"></p>
+            </div>
+        </div>            
+        <!-- Bio section -->
+        <div class="md:w-3/4">
+            <div class="grid bg-purple-900 justify-items-center md:col-span-4 text-white">
+            <a name="about"></a>
+            <div class="grid p-5 justify-items-center md:col-span-1">
+                <p class="font-bold uppercase text-2xl">Bio</p>
+            </div>
+            </div>
+            <h1 class="p-5 font-bold text-xl">Pamela Fennell <span class="text-slate-400 italic">(Bynum)</span>:</h1><p class="p-5 text-lg sm:text-xl md:text-xl font-light">My passion is in front-end web development, but my primary focus is developing technical solutions for small businesses in rural areas.  My goal is to provide a professional in-house team to help develop custom programming and technological solutions designed to improve and support the vision of your organization and/or daily business functions</p>
+            <p class="p-5 text-lg sm:text-xl md:text-xl font-light">Currently I wear a lot of hats. I’m married and I have two teenage boys ages 18 and 19. All four of us are enrolIed in school right now. I’m a full time Pastor, I oversee 4 online ministries, and I serve as a technical liaison to two additional churches. In addition to that I am an entrepreneur and I am in the process of building a non-profit organization  teaching youth in rural areas how to code and to expose them to technology beyond using social media.</p>
+        </div>
+    </div>     
+    <!-- Work Examples  -->
+    <section id="work">
+    <div class="grid bg-purple-900 justify-items-center col-span-4 text-white">
+        <a name="work"></a>
+        <div class="grid p-5 justify-items-center md:col-span-1">
+            <p class="font-bold uppercase text-2xl">Work Examples</p>
+        </div>
+    </div>
+    <div class="px-5 pb-10 md:pb-20 grid gap-2 grid-cols-1 sm:grid-cols-2 md:grid-cols-4">
+        <div class="bg-white p-5 shadow-md rounded-lg">
+            <!-- work card 1 -->
+            <div class="grid bg-white rounded-lg p-5 justify-items-center">
+                <img src="IMG/fso_1.png" alt="Campus Explorer" class="h-60 p-2 pb-10">
+                <p class="font-bold">HTML Challenge</p>
+                <p><span class="font-bold">Featured Skills:</span> HTML, CSS</p>
+            </div>
+            <a href="https://codepen.io/pfennell/full/mdBVEYm" class="grid justify-items-center ml-5 mr-5 mt-2 mb-2 bg-teal-500 hover:bg-gradient-to-r from-cyan-500 to-blue-500 text-white text-sm md:text-base px-10 py-5 rounded-full shadow-md uppercase font-bold">Campus Explorer</a>
+        </div>
+        <div class="bg-white shadow-md rounded-lg">
+            <!-- work card 2 -->
+            <div class="grid justify-items-center p-5 md:col-span-1">
+                <div class="grid bg-white rounded-lg p-5 justify-items-center">
+                    <img src="IMG/fso_2.png" alt="Dream Job" class="h-60 p-2 pb-10">
+                    <p class="font-bold">Branded Website</p>
+                    <p><span class="font-bold">Featured Skills:</span> HTML, CSS</p>
+                </div>
+            </div>                
+            <a href="https://codepen.io/pfennell/full/xxXgRRv" class="grid justify-items-center ml-5 mr-5 mt-2 mb-2 bg-teal-500 hover:bg-gradient-to-r from-cyan-500 to-blue-500 text-white text-sm md:text-base px-10 py-5 rounded-full shadow-md uppercase font-bold">Dream Job</a>
+        </div>
+        <div class="bg-white shadow-md rounded-lg">
+            <!-- work card 3 -->
+            <div class="grid justify-items-center p-5 md:col-span-1">
+                <div class="grid bg-white rounded-lg p-5 justify-items-center">
+                    <img src="IMG/fso_3.png" alt="Body Mass Calculator" class="h-60 p-2 pb-10">
+                    <p class="font-bold">Final Project ITD1</p>
+                    <p><span class="font-bold">Featured Skills:</span> HTML, CSS, JavaScript</p>
+                </div>
+            </div>                
+            <a href="work/bmi_calculator/index.html" class="grid justify-items-center ml-5 mr-5 mt-2 mb-2 bg-teal-500 hover:bg-gradient-to-r from-cyan-500 to-blue-500 text-white text-sm md:text-base px-10 py-5 rounded-full shadow-md uppercase font-bold">BMI Calculator</a>
+        </div>
+        <div class="bg-white shadow-md rounded-lg">
+            <!-- work card 4 -->
+            <div class="grid justify-items-center p-5 md:col-span-1">
+                <div class="grid bg-white rounded-lg p-5 justify-items-center">
+                    <img src="IMG/fso_4.png" alt="Fill'er Up, Movie Star" class="h-60 p-2 pb-10">
+                    <p class="font-bold">HTML Forms</p>
+                    <p><span class="font-bold">Featured Skills:</span> HTML, CSS, JavaScript</p>
+                </div>
+            </div>               
+            <a href="work/html_forms/index.html" class="grid justify-items-center ml-5 mr-5 mt-2 mb-2 bg-teal-500 hover:bg-gradient-to-r from-cyan-500 to-blue-500 text-white text-sm md:text-base px-10 py-5 rounded-full shadow-md uppercase font-bold">HTML Forms</a>
+        </div>
+    </div>
+    </section>
+    <!-- end Work Examples  -->
+
+    <!-- Skills  -->
+    <section id="skills">
+        <div class="grid bg-purple-900 justify-items-center col-span-4 text-white">
+            <a name="skills"></a>
+            <div class="grid p-5 justify-items-center md:col-span-1">
+                <p class="font-bold uppercase text-2xl">Skills 1</p>
+            </div>
+        </div>
+        <div class="p-5 bg-white flex flex-row md:flex-wrap">
+            <p class="m-10 mt-8 text-xl md:text-xl font-light"><span class="font-bold text-xl">Experienced in IT, Web Design and Development, with multiple CompTIA, Linux and Microsoft certifications</span> with the ability to acclimate well to a growing, fast-paced environment.  Proven ability to work well collectively as well as independently.  Customer-oriented with 20+ years of excellent communication and problem-solving skills.</p>
+        </div>
+        <!-- Details about my skills  -->
+        <div class="bg-white md:w-full">
+            <div class="grid gap-2 grid-cols-1 md:grid-cols-4">
+                <div class="bg-sky-900 text-white p-5 md:col-span-1">
+                    <p><span class="font-bold">Web Design / Development:</span> HTML, CSS, JavaScript, PHP</p>
+                </div>
+
+                <div class="bg-sky-900 text-white p-5 row-start-2 md:col-span-1">
+                    <p><span class="font-bold">IT Skills:</span> Linux, LAMP, MAMP, DNS</p>
+                </div>
+                <div class="bg-sky-900 text-white p-5 md:col-span-3">
+                    <p><span class="font-bold">Graphic Design and Video Production:</span> Premier Pro, DiVinci Resolve, Photoshop, Illustrator, Canva</p>
+                </div>
+                <div class="bg-sky-900 text-white p-5 md:col-span-3">
+                    <p><span class="font-bold">IT certifications:</span> <a href="https://cs.lpi.org/caf/Xamman/certification/verify/LPI000418258/wnuhweuagh" class="text-teal-100 hover:text-yellow-400">Linux Essentials</a>, CompTIA A+ ce Certification, <a href="https://www.credly.com/badges/d656bd68-d4a3-4760-bf1d-f4a05c16484e/linked_in_profile" class="text-teal-100 hover:text-yellow-400">MTA: Security Fundamentals - Certified 2018</a>, <a href="https://www.credly.com/badges/82ef25a3-5683-4e35-a028-2d25b544f28d" class="text-teal-100 hover:text-yellow-400">MTA: Windows Server Administration Fundamentals - Certified 2019</a></p>
+                </div>
+            </div>   
+        </div>                              
+    </section>    
+
+        <footer class="grid bg-purple-900 justify-items-center col-span-3 text-white">
+            <!-- Contact  -->
+            <a name="contact"></a>
+            <div class="grid p-5 justify-items-center md:col-span-1">
+                <p class="font-bold uppercase text-2xl">Contact</p>
+            </div>
+
+            <div class="text-slate-400 py-5 grid gap-1 grid-cols-1 justify-items-center md:grid-cols-4">
+                <div class="p-5 md:col-span-1">
+                    <p>Pamela Fennell</p>
+                </div>
+                <div class="p-5 md:col-span-1">
+                    <p><a href="#" class="hover:text-white">4.5 Single Page Portfolio</a></p>
+                </div>
+                <div class="p-5 md:col-span-1">
+                    <p><a href="https://www.linkedin.com/in/pfennell-bynum/" class="hover:text-white">LinkedIn</a></p>
+                </div>
+                <div class="p-5 md:col-span-1">
+                    <p><a href="https://codepen.io/pfennell/" class="hover:text-white">Codepen</a></p>
+                </div>
+            </div>
+        </footer>
+
+</body>
+</html>
