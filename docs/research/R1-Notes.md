@@ -8,13 +8,15 @@
 
 
 
-## General Notes
+## Research and Development: R1 Notes
 
 This document contains general notes related to...
 - GitHub Workflows
 - Creating Issues
+- Discovery
 
 <br>
+
 
 ## Sub-Topic 1 - GitHub Workflows
 Brief overview of research. 
