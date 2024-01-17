@@ -55,18 +55,18 @@ As I went through the process of answering key questions to prepare for Kick-Off
 
 
 ## Reference Links
-Use this section to highlight your own independent research. Replace the example references below with your own links and recommended resources. For example...
 
-**Resource 1: Title**  
-[Name of Site or Article Here](https://www.someaddress.com/full/url/): Here's what I learned about...  
+**Resource 1: Feature Branch Workflow**  
+[FBWF Simplified](https://gist.github.com/eMediaLab/20a1420d24828e83d52ae58d9ea5c10e): This was a great resource to use as a refresher to what I have learned about FBWF.
 
-**Resource 2: Title**    
-[Name of Site or Article Here](https://www.someaddress.com/full/url/): This site showed me how to...
+**Resource 2: Git feature branch Workflow**    
+[Atlassian](https://www.atlassian.com/git/tutorials/comparing-workflows/feature-branch-workflow): This site showed me how to understand collaborating workflows. 
 
-**Resource 3: Title**      
-[Name of Site or Article Here](https://www.someaddress.com/full/url/): This article explains that...
+**Resource 3: Elevator Pitch Examples: Crafting Your Perfect 30- Or 60-Second Pitch**      
+[Teamly](https://www.teamly.com/blog/elevator-pitch-examples/#30-second_elevator_pitch_examples): This article explains that crafting a 30-second pitch is between 2-3 sentences and roughly 60 words. Make it short and make it memorable.
 
 <br>
+
 
 **Note:**  
 
