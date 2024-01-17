@@ -1,13 +1,14 @@
 # Project & Portfolio 
 
-* **Research Notes - Milestone 1**
+* **Research Notes - 359 MS 1**
 * **Pamela Fennell**
-* **Sept 3, 2023**
+* **January 16, 2024**
 
 <br>
 
 
-## Topic - Replace with your topic
+
+## General Notes
 
 This document contains general notes related to...
 - GitHub Workflows
