@@ -27,28 +27,18 @@ Digital properties: website, mobile app, etc…
 
 * **1: Using an analytical tool to do tracking can allow you to** 
     - Understand the customer journey and improve marketing ROI
-    - User Interaction Insights
     - See data across platforms 
-    - Measure Marketing Performance 
-    - Engagement Metrics
+    - Use insights to improve marketing performance
 
 * How could this impact or strengthen your business idea?
     - Analyze your digital properties so that you can see what’s working and what’s not. 
     - See which users are likely to purchase or churn using machine learning when observed data isn’t available
-    - Use insights to improve marketing performance
     - Optimize the UX to make the app more engaging and useful
         - See how often users open the app
         - See how long they stay within the app, 
         - See what features they use the most. 
 
-    - Measure performance across multiple platforms:
-        - Get a holistic view of your app's performance 
-I       - Identify areas where improvements are needed 
-
-    - The data collected by Google Analytics can be used to inform your Google Ads strategy, helping you target your ads more effectively
-    - Google Analytics offers various privacy settings and controls, giving you the flexibility to meet user privacy requirements and regulations 
-
-* 2: Three Key Principles to go by:
+* **2: A/B Testing:**
     - Maintain clarity
     - Gain user confidence
     - Simplicity is key
