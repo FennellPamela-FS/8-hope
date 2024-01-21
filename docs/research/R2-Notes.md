@@ -21,26 +21,47 @@ This document contains general notes related to...
 
 <br>
 
-## Sub-Topic 1 - Wireframes
+## Sub-Topic 1 - Google Analytics
 Brief overview of research. 
-Wireframes demonstrates a simple layout that outlines the specific size and placement of page elements, site features, conversion areas, and naviagtion for your website 
+Digital properties: website, mobile app, etc… 
 
-* 1: Wireframing is important because:
-> - they display site architecture visually
-> - allow for clarification of website features
-> - push usability to the forefront
-> - address scalability and ease-of-update
-> - help make the design process iterative
-> - save time on the entire project
-> - demonstrates that the process works
-* 2: Things to Avoid during wireframing:
-> - **Avoid adding color.** Working in grayscale helps maintain focus on the primary function of the process, which is to finalize the layout, not the design. 
-> - **Avoid adding too much detail.** too much in the beginning may add confusion. Keep the fidelity low and focus on making something that others will collaborate around.
-> - **Avoid wireframing every single page.** Only do what’s necessary to move the project forward and get consensus before building.
+* **1: Using an analytical tool to do tracking can allow you to** 
+    - Understand the customer journey and improve marketing ROI
+    - User Interaction Insights
+    - See data across platforms 
+    - Measure Marketing Performance 
+    - Engagement Metrics
+
+* How could this impact or strengthen your business idea?
+    - Analyze your digital properties so that you can see what’s working and what’s not. 
+    - See which users are likely to purchase or churn using machine learning when observed data isn’t available
+    - Use insights to improve marketing performance
+    - Optimize the UX to make the app more engaging and useful
+        - See how often users open the app
+        - See how long they stay within the app, 
+        - See what features they use the most. 
+
+    - Measure performance across multiple platforms:
+        - Get a holistic view of your app's performance 
+I       - Identify areas where improvements are needed 
+
+    - The data collected by Google Analytics can be used to inform your Google Ads strategy, helping you target your ads more effectively
+    - Google Analytics offers various privacy settings and controls, giving you the flexibility to meet user privacy requirements and regulations 
+
+* 2: Three Key Principles to go by:
+    - Maintain clarity
+    - Gain user confidence
+    - Simplicity is key
+
 * 3: Three Key Principles to go by:
-> - Maintain clarity
-> - Gain user confidence
-> - Simplicity is key
+    - Maintain clarity
+    - Gain user confidence
+    - Simplicity is key
+
+* 4: Three Key Principles to go by:
+    - Maintain clarity
+    - Gain user confidence
+    - Simplicity is key
 
 * RESOURCES for this topic:
 1. [Why Wireframe](https://www.orbitmedia.com/blog/7-reasons-to-wireframe/)
