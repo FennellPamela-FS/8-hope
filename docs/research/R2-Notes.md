@@ -7,17 +7,18 @@ This document is a template for ongoing research. Delete this first paragraph an
 
 * **Research Notes - Milestone 2**
 * **Pamela Fennell**
-* **September 12, 2023**
+* **January 21, 2024**
 
 <br>
 
 
-## Topic - Replace with your topic
-
+## Topic - R2: Business Case
 This document contains general notes related to...
-- Wireframes
-- Style 
-- Branding
+- Google Analytics
+- A/B Testing
+- Use Cases
+- Your First Plan
+
 <br>
 
 ## Sub-Topic 1 - Wireframes
