@@ -38,14 +38,7 @@ Digital properties: website, mobile app, etc…
         - See how long they stay within the app, 
         - See what features they use the most. 
 
-* **2: A/B Testing:**
-Gain insight into visitor behavior and to increase conversion rate
-- **Explanation:** You have two versions of an element (A and B) and a metric that defines success. To determine which version is better, you subject both versions to experimentation simultaneously. In the end, you measure which version was more successful and select that version for real-world use.
 
-Short version: **Is version B better than version A**
-- A is the existing design (called the control), and B is the new design. 
-- You split your website traffic between these two versions and measure their performance
-- Then select the version that performs best.
 
 * 3: **Use Cases**
 Use Case depends on **User Actions** and **Response of System** to the User Actions.
@@ -83,17 +76,14 @@ Use Case depends on **User Actions** and **Response of System** to the User Acti
 
 <br>
 
-## Sub-Topic 2 - Style
-Brief overview of research. 
+## Sub-Topic 2 - A/B Testing
+Gain insight into visitor behavior and to increase conversion rate
+* **Explanation:** You have two versions of an element (A and B) and a metric that defines success. To determine which version is better, you subject both versions to experimentation simultaneously. In the end, you measure which version was more successful and select that version for real-world use.
 
-* The Style Tile is a tool to get the design process started
-* Brand Fonts
-    - be memorable
-    - be legible
-    - be functional cross-platform
-    - be a reflect of your brand personality
-* Color Theory: choosing the right colors
-* Textures 
+* Short version: **Is version B better than version A**
+- A is the existing design (called the control), and B is the new design. 
+- You split your website traffic between these two versions and measure their performance
+- Then select the version that performs best.
 
 <br>
 
