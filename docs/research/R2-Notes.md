@@ -93,5 +93,10 @@ Create your master story list
 **Resource 2: A/B Testing**    
 [The Ultimate Guide To A/B Testing](https://www.smashingmagazine.com/2010/06/the-ultimate-guide-to-a-b-testing/) Gain insight into visitor behavior and to increase conversion rate. 
 
-**Resource 3: Brand Fonts**
-[Everything You Need to Know About Picking Brand Fonts](https://venngage.com/blog/brand-fonts/)
+**Resource 3: Use Cases**
+[Use Case And Use Case Testing Complete Tutorial](https://www.softwaretestinghelp.com/use-case-testing/)
+
+[What is Use Case Diagram? - Visual Paradigm](https://www.visual-paradigm.com/guide/uml-unified-modeling-language/what-is-use-case-diagram/)
+
+**Resource 3: Your First Plan**
+[The Agile Samurai](https://learning.oreilly.com/library/view/the-agile-samurai/9781680500066/f_0056.html) Chapter 8
