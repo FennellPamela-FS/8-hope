@@ -98,5 +98,5 @@ Create your master story list
 
 [What is Use Case Diagram? - Visual Paradigm](https://www.visual-paradigm.com/guide/uml-unified-modeling-language/what-is-use-case-diagram/)
 
-**Resource 3: Your First Plan**
+**Resource 4: Your First Plan**
 [The Agile Samurai](https://learning.oreilly.com/library/view/the-agile-samurai/9781680500066/f_0056.html) Chapter 8
