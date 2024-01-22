@@ -30,7 +30,7 @@ Digital properties: website, mobile app, etc…
     - See data across platforms 
     - Use insights to improve marketing performance
 
-* How could this impact or strengthen your business idea?
+* 2: How could this impact or strengthen your business idea?
     - Analyze your digital properties so that you can see what’s working and what’s not. 
     - See which users are likely to purchase or churn using machine learning when observed data isn’t available
     - Optimize the UX to make the app more engaging and useful
@@ -38,56 +38,44 @@ Digital properties: website, mobile app, etc…
         - See how long they stay within the app, 
         - See what features they use the most. 
 
-
-
-* 3: **Use Cases**
-Use Case depends on **User Actions** and **Response of System** to the User Actions.
-    - Starts with an actor/user that wants to do something 
-    - describes the steps the actor takes to do that thing
-    - Captures the response the system gives back. 
-        - functional requirements of a system from the user’s perspective
-    - Then ends when the user’s specific goal is achieved.
-
-    - Use case testing helps to ensure that the system works correctly and meets the needs of its users:
-        - Identifies the use case
-        - Create test scenarios
-        - Execute test scenarios
-        - Record results
-        - Review and improve
-
-    - Use case diagram is pictorial or graphical representation of the use case. Use to visualize the systems functionality and the interactions  between the system and its users
-        - Actors
-        - Use cases
-        - Relationships
-        - System boundary
-    - Use Case Diagrams are typically developed in the early stages of development to specify the context of a system, capture the requirements of a system, validate a system's architecture, drive implementation, and generate test cases 
-
-
-* 4: Three Key Principles to go by:
-    - Maintain clarity
-    - Gain user confidence
-    - Simplicity is key
-
-* RESOURCES for this topic:
-1. [Why Wireframe](https://www.orbitmedia.com/blog/7-reasons-to-wireframe/)
-2. [Things to Avoid](https://www.seguetech.com/the-importance-of-wireframing-for-a-responsive-website/)
-3. [Wireframing Steps](https://careerfoundry.com/en/blog/ux-design/how-to-create-your-first-wireframe/)
-4. [Framework for finding your idea and refining it](https://uxdesign.cc/good-users-bad-users-from-use-cases-to-misuse-cases-cd4cc0424e3a)
-
 <br>
 
 ## Sub-Topic 2 - A/B Testing
 Gain insight into visitor behavior and to increase conversion rate
-* **Explanation:** You have two versions of an element (A and B) and a metric that defines success. To determine which version is better, you subject both versions to experimentation simultaneously. In the end, you measure which version was more successful and select that version for real-world use.
+* 1: **Explanation:** You have two versions of an element (A and B) and a metric that defines success. To determine which version is better, you subject both versions to experimentation simultaneously. In the end, you measure which version was more successful and select that version for real-world use.
 
-* Short version: **Is version B better than version A**
+* 2: Short version: **Is version B better than version A**
 - A is the existing design (called the control), and B is the new design. 
 - You split your website traffic between these two versions and measure their performance
 - Then select the version that performs best.
 
 <br>
 
-## Sub-Topic 3 - Key concepts for Branding 
+## Sub-Topic 3 - Use Cases
+* 1: Use Case depends on **User Actions** and **Response of System** to the User Actions.
+    - Starts with an actor/user that wants to do something 
+    - describes the steps the actor takes to do that thing
+    - Captures the response the system gives back. 
+        - functional requirements of a system from the user’s perspective
+    - Then ends when the user’s specific goal is achieved.
+
+* 2: Use case testing helps to ensure that the system works correctly and meets the needs of its users:
+    - Identifies the use case
+    - Create test scenarios
+    - Execute test scenarios
+    - Record results
+    - Review and improve
+
+* 3: Use case diagram is pictorial or graphical representation of the use case. Use to visualize the systems functionality and the interactions  between the system and its users
+    - Actors
+    - Use cases
+    - Relationships
+    - System boundary
+* 4: Use Case Diagrams are typically developed in the early stages of development to specify the context of a system, capture the requirements of a system, validate a system's architecture, drive implementation, and generate test cases 
+
+<br>
+
+## Sub-Topic 4 - Key concepts for Branding 
 Brief overview of research. 
 
 **Branding:** Your brand tells a story and defines the parts of your product, such as typography, colors, and textures.
@@ -99,8 +87,6 @@ The defining parts of your story lives in ...
 * Colors
 * Icons
 * Graphics/Photos/Textures
-
-
     
 <br>
 
