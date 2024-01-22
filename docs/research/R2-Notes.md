@@ -49,9 +49,26 @@ Short version: **Is version B better than version A**
 
 * 3: **Use Cases**
 Use Case depends on **User Actions** and **Response of System** to the User Actions.
-- **User Actions**
+    - Starts with an actor/user that wants to do something 
+    - describes the steps the actor takes to do that thing
+    - Captures the response the system gives back. 
+        - functional requirements of a system from the user’s perspective
+    - Then ends when the user’s specific goal is achieved.
 
-- **Responses of Systems**
+    - Use case testing helps to ensure that the system works correctly and meets the needs of its users:
+        - Identifies the use case
+        - Create test scenarios
+        - Execute test scenarios
+        - Record results
+        - Review and improve
+
+    - Use case diagram is pictorial or graphical representation of the use case. Use to visualize the systems functionality and the interactions  between the system and its users
+        - Actors
+        - Use cases
+        - Relationships
+        - System boundary
+    - Use Case Diagrams are typically developed in the early stages of development to specify the context of a system, capture the requirements of a system, validate a system's architecture, drive implementation, and generate test cases 
+
 
 * 4: Three Key Principles to go by:
     - Maintain clarity
