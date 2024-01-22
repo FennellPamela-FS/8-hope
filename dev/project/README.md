@@ -1,6 +1,4 @@
-# Log ...🚀 
-
-# Project & Portfolio
+# Project & Portfolio 🚀
 ### Pamela Fennell 
 
 
@@ -18,5 +16,5 @@
 🏆 Set up server
 <br>
 🔮 Next Steps 
-    - Connect to MongoDB
-    - Integrate API
+> * Connect to MongoDB
+> * Integrate API
