@@ -75,29 +75,23 @@ Gain insight into visitor behavior and to increase conversion rate
 
 <br>
 
-## Sub-Topic 4 - Key concepts for Branding 
-Brief overview of research. 
+## Sub-Topic 4 - Your First Plan 
+Create your master story list
+    - Size it up, and know whether or not you are looking at 1, 3, 6 or 9 month journey.
+    - Prioritize by connecting the dots early for stories that are important to the customer, go end-to-end and prove the architecture, this will help eliminate a lot of risk while gaining insight on how to best build the system
+    - Estimate your team’s speed(velocity) = stories points completed / iteration
+    - Set expectations around either the delivery date or by feature set
 
-**Branding:** Your brand tells a story and defines the parts of your product, such as typography, colors, and textures.
-
-
-The defining parts of your story lives in ...
-* Consistent style
-* Fonts
-* Colors
-* Icons
-* Graphics/Photos/Textures
     
 <br>
 
 ## Reference Links
-Use this section to highlight your own independent research. Replace the example references below with your own links and recommended resources. For example...
 
-**Resource 1: Style Tile**  
-[What is a Style Tile?](https://bootcamp.uxdesign.cc/style-tiles-a1805d9fb271): Used to collate the styles and assets used to design the UI, helping to establish consistency with the brand throughout the project.
+**Resource 1: Google Analytics**  
+[Analytics Tools & Solutions for Your Business](https://marketingplatform.google.com/about/analytics/benefits/): Get a complete understanding of how your customers engage with your business.
 
-**Resource 2: Style Tile**    
-[Why making a style tile is part of our design process](https://level-level.com/blog/why-we-use-a-style-tile/): Develop the visiual direction for your project using style tiles.
+**Resource 2: A/B Testing**    
+[The Ultimate Guide To A/B Testing](https://www.smashingmagazine.com/2010/06/the-ultimate-guide-to-a-b-testing/) Gain insight into visitor behavior and to increase conversion rate. 
 
 **Resource 3: Brand Fonts**
 [Everything You Need to Know About Picking Brand Fonts](https://venngage.com/blog/brand-fonts/)
