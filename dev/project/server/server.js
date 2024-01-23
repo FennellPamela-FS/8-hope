@@ -7,41 +7,28 @@ const http = require('http');
 // require('dotenv').config();
 
 const express = require('express');
-const app = express();
 const cors = require('cors');
 require("dotenv").config('./env')
 const port = process.env.PORT || 5000;
 
+// import routes
+const verseDayRouter = require('./routes/verseDayRouter');
+
+
+const app = express();
+
 app.use(cors())
 app.use(express.json())
+// app.use(require('./routes/verseDayRouter'))
 
+
+// Router: verseDay 
+app.use('/vod', verseDayRouter);
 
 // get driver connection
 const dbo = require('./db/conn')
-
-// app.listen(port, () =>
-//     console.log(`Server running on port ${port}`)
-// );
-
-// app.listen(port, () => {
-//     // connect to database when server starts
-//     dbo.connectToServer(function (err) {
-//         if (err) console.error(err);
-//     })
-//     console.log(`Backend is running on port: ${port}`)
-// });
-
-
 
 // request listener
 http.createServer(app).listen(port, () => {
     console.log(`Server running on ${port}`);
 });
-
-
-// // connect to database
-// const mongoose = require('mongoose');
-// mongoose.connect(process.env.MONGODB_URI);
-// if (mongoose) {
-//     console.log("Successfully connected to MongoDB.");
-// }
