@@ -1,7 +1,5 @@
 
-# Log ...🚀 
-
-# Project & Portfolio
+# 🚀 Project Initiation
 ### Pamela Fennell 
 
 
@@ -33,6 +31,18 @@ Each week I will summarize my milestone activity and progress by writing a stand
 🏆 Accomplishments - Confirmed API to use for bible. Confirmed Change Order for Proposal and Tech Stack
 <br>
 🔮 Next Steps - Implement Bible API integration 
+
+<br>
+
+### Week 2
+
+⚙️ Overview - Metrics and The Business Model
+<br>
+🌵 Challenges - Learning to manage time during a difficult weekend. Implement Bible API integration 
+<br>
+🏆 Accomplishments - Successfully established database connection. Setup file structure for frontend and backend.
+<br>
+🔮 Next Steps - Configure routes to access Bible API and show data 
 
 <br>
 

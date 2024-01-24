@@ -7,87 +7,96 @@ This document is a template for ongoing research. Delete this first paragraph an
 
 * **Research Notes - Milestone 2**
 * **Pamela Fennell**
-* **September 12, 2023**
+* **January 21, 2024**
 
 <br>
 
 
-## Topic - Replace with your topic
-
+## Topic - R2: Business Case
 This document contains general notes related to...
-- Wireframes
-- Style 
-- Branding
-<br>
-
-## Sub-Topic 1 - Wireframes
-Brief overview of research. 
-Wireframes demonstrates a simple layout that outlines the specific size and placement of page elements, site features, conversion areas, and naviagtion for your website 
-
-* 1: Wireframing is important because:
-> - they display site architecture visually
-> - allow for clarification of website features
-> - push usability to the forefront
-> - address scalability and ease-of-update
-> - help make the design process iterative
-> - save time on the entire project
-> - demonstrates that the process works
-* 2: Things to Avoid during wireframing:
-> - **Avoid adding color.** Working in grayscale helps maintain focus on the primary function of the process, which is to finalize the layout, not the design. 
-> - **Avoid adding too much detail.** too much in the beginning may add confusion. Keep the fidelity low and focus on making something that others will collaborate around.
-> - **Avoid wireframing every single page.** Only do what’s necessary to move the project forward and get consensus before building.
-* 3: Three Key Principles to go by:
-> - Maintain clarity
-> - Gain user confidence
-> - Simplicity is key
-
-* RESOURCES for this topic:
-1. [Why Wireframe](https://www.orbitmedia.com/blog/7-reasons-to-wireframe/)
-2. [Things to Avoid](https://www.seguetech.com/the-importance-of-wireframing-for-a-responsive-website/)
-3. [Wireframing Steps](https://careerfoundry.com/en/blog/ux-design/how-to-create-your-first-wireframe/)
-4. [Framework for finding your idea and refining it](https://uxdesign.cc/good-users-bad-users-from-use-cases-to-misuse-cases-cd4cc0424e3a)
+- Google Analytics
+- A/B Testing
+- Use Cases
+- Your First Plan
 
 <br>
 
-## Sub-Topic 2 - Style
+## Sub-Topic 1 - Google Analytics
 Brief overview of research. 
+Digital properties: website, mobile app, etc… 
 
-* The Style Tile is a tool to get the design process started
-* Brand Fonts
-    - be memorable
-    - be legible
-    - be functional cross-platform
-    - be a reflect of your brand personality
-* Color Theory: choosing the right colors
-* Textures 
+* **1: Using an analytical tool to do tracking can allow you to** 
+    - Understand the customer journey and improve marketing ROI
+    - See data across platforms 
+    - Use insights to improve marketing performance
+
+* 2: How could this impact or strengthen your business idea?
+    - Analyze your digital properties so that you can see what’s working and what’s not. 
+    - See which users are likely to purchase or churn using machine learning when observed data isn’t available
+    - Optimize the UX to make the app more engaging and useful
+        - See how often users open the app
+        - See how long they stay within the app, 
+        - See what features they use the most. 
 
 <br>
 
-## Sub-Topic 3 - Key concepts for Branding 
-Brief overview of research. 
+## Sub-Topic 2 - A/B Testing
+Gain insight into visitor behavior and to increase conversion rate
+* 1: **Explanation:** You have two versions of an element (A and B) and a metric that defines success. To determine which version is better, you subject both versions to experimentation simultaneously. In the end, you measure which version was more successful and select that version for real-world use.
 
-**Branding:** Your brand tells a story and defines the parts of your product, such as typography, colors, and textures.
+* 2: Short version: **Is version B better than version A**
+- A is the existing design (called the control), and B is the new design. 
+- You split your website traffic between these two versions and measure their performance
+- Then select the version that performs best.
 
+<br>
 
-The defining parts of your story lives in ...
-* Consistent style
-* Fonts
-* Colors
-* Icons
-* Graphics/Photos/Textures
+## Sub-Topic 3 - Use Cases
+* 1: Use Case depends on **User Actions** and **Response of System** to the User Actions.
+    - Starts with an actor/user that wants to do something 
+    - describes the steps the actor takes to do that thing
+    - Captures the response the system gives back. 
+        - functional requirements of a system from the user’s perspective
+    - Then ends when the user’s specific goal is achieved.
 
+* 2: Use case testing helps to ensure that the system works correctly and meets the needs of its users:
+    - Identifies the use case
+    - Create test scenarios
+    - Execute test scenarios
+    - Record results
+    - Review and improve
+
+* 3: Use case diagram is pictorial or graphical representation of the use case. Use to visualize the systems functionality and the interactions  between the system and its users
+    - Actors
+    - Use cases
+    - Relationships
+    - System boundary
+* 4: Use Case Diagrams are typically developed in the early stages of development to specify the context of a system, capture the requirements of a system, validate a system's architecture, drive implementation, and generate test cases 
+
+<br>
+
+## Sub-Topic 4 - Your First Plan 
+Create your master story list
+    - Size it up, and know whether or not you are looking at 1, 3, 6 or 9 month journey.
+    - Prioritize by connecting the dots early for stories that are important to the customer, go end-to-end and prove the architecture, this will help eliminate a lot of risk while gaining insight on how to best build the system
+    - Estimate your team’s speed(velocity) = stories points completed / iteration
+    - Set expectations around either the delivery date or by feature set
 
     
 <br>
 
 ## Reference Links
-Use this section to highlight your own independent research. Replace the example references below with your own links and recommended resources. For example...
 
-**Resource 1: Style Tile**  
-[What is a Style Tile?](https://bootcamp.uxdesign.cc/style-tiles-a1805d9fb271): Used to collate the styles and assets used to design the UI, helping to establish consistency with the brand throughout the project.
+**Resource 1: Google Analytics**  
+[Analytics Tools & Solutions for Your Business](https://marketingplatform.google.com/about/analytics/benefits/): Get a complete understanding of how your customers engage with your business.
 
-**Resource 2: Style Tile**    
-[Why making a style tile is part of our design process](https://level-level.com/blog/why-we-use-a-style-tile/): Develop the visiual direction for your project using style tiles.
+**Resource 2: A/B Testing**    
+[The Ultimate Guide To A/B Testing](https://www.smashingmagazine.com/2010/06/the-ultimate-guide-to-a-b-testing/) Gain insight into visitor behavior and to increase conversion rate. 
 
-**Resource 3: Brand Fonts**
-[Everything You Need to Know About Picking Brand Fonts](https://venngage.com/blog/brand-fonts/)
+**Resource 3: Use Cases**
+[Use Case And Use Case Testing Complete Tutorial](https://www.softwaretestinghelp.com/use-case-testing/)
+
+[What is Use Case Diagram? - Visual Paradigm](https://www.visual-paradigm.com/guide/uml-unified-modeling-language/what-is-use-case-diagram/)
+
+**Resource 4: Your First Plan**
+[The Agile Samurai](https://learning.oreilly.com/library/view/the-agile-samurai/9781680500066/f_0056.html) Chapter 8
