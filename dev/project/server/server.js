@@ -22,8 +22,29 @@ app.use(express.json())
 // app.use(require('./routes/verseDayRouter'))
 
 
+app.get('/', (req, res) => {
+    res.send(`Hello from Express on ${port}!`)
+})
+
 // Router: verseDay 
 app.use('/vod', verseDayRouter);
+
+app.use((req, res, next) => {
+    const error = new Error("Not Found");
+    error.status = 404;
+    next(error);
+});
+
+app.use((error, req, res, next) => {
+    res.status(error.status || 500).json({
+        error: {
+            message: error.message,
+            status: error.status,
+            method: req.method
+        },
+    });
+});
+
 
 // get driver connection
 const dbo = require('./db/conn')

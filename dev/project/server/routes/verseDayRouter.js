@@ -3,6 +3,11 @@ const express = require("express");
 // verseDayRoutes is an instance of the express router
 // we user it to define our routes
 // the router will be added as a middleware and will take control of requests starting with the path /verseDay
+const {
+    verseDayService,
+    // verseDayServiceById,
+    // verseDayServiceByName
+} = require('../services/verseDayService');
 const verseDayRouter = express.Router();
 
 // // connect with database object
@@ -12,31 +17,27 @@ const verseDayRouter = express.Router();
 // const mongoose = require('mongoose');
 // const ObjectId = mongoose.Types.ObjectId;
 
-// const {
-//     verseDayService,
-//     verseDayServiceById,
-//     verseDayServiceByName
-// } = require('../services/verseDayService');
+
 // const dogRouter = express.Router();
 
-const cors = require('cors');
+// const cors = require('cors');
 
-verseDayRouter.use(cors());
-verseDayRouter.use(express.json());
+// verseDayRouter.use(cors());
+// verseDayRouter.use(express.json());
 
 verseDayRouter.get('/', (req, res, next) => {
-    // verseDayService()
-    //     .then(result => {
-    //         res.status(200).json(result.data);
-    //     })
-    //     .catch(err => {
-    //         res.status(500).json({
-    //             error: {
-    //                 message: err.message,
-    //                 method: req.method
-    //             },
-    //         });
-    //     });
+    verseDayService()
+        .then(result => {
+            res.status(200).json(result.data);
+        })
+        .catch(err => {
+            res.status(500).json({
+                error: {
+                    message: err.message,
+                    method: req.method
+                },
+            });
+        });
     console.log('Inside Verse of the Day Router')
 
 });
