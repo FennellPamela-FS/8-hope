@@ -133,11 +133,9 @@ A review of how to apply a SWOT analysis to this project
 
 
 **Opportunities:**
-    * 1:
+    * 1: Growing Interest in Spiritual Apps: With the increasing interest in spiritual apps, there's a growing market for your Bible app.
 
-    * 2:
-
-
+    * 2: Personal Devotionals: Many people use personal devotionals as a way to connect with God. Your app could fill a gap in this market by providing a unique, interactive experience.
 
 
 **Threats:**
