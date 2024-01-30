@@ -33,7 +33,6 @@ Security is a continuous process and not a one-time task. Therefore staying up t
     - always perform server-side checks.
     - Implement secure authentication mechanisms. This could mean using secure methods for storing and verifying user credentials, and providing options for multi-factor authentication.
 
-
 * 2: Cryptographic Failures (Sensitive Data Exposure)
     - Protect sensitive data during transmission and storage. 
     - Use encryption for data at rest and in transit, and 
@@ -62,8 +61,6 @@ Security is a continuous process and not a one-time task. Therefore staying up t
         - ensure to validate XML inputs and 
         - disable external entity resolution to prevent XXE attacks.
 
-
-
 * 6: Vulnerable and Outdated Components 
     - Using Components with Known Vulnerabilities 
     - Regularly update components and libraries, and 
@@ -79,7 +76,6 @@ Security is a continuous process and not a one-time task. Therefore staying up t
     - Insecure Deserialization
     - Be careful with deserializing data and 
     - consider using safer alternatives.
-
 
 * 9: Security Logging and Monitoring Failures 
     - Insufficient Logging & Monitoring 
@@ -166,22 +162,18 @@ A review of the EFF topics on 'Creativity & Innovation' and how they could be re
 
 * 5: Digital Rights: EFF works to protect digital rights, including the right to privacy. If your app collects user data, you'll need to ensure you're handling it responsibly. This includes getting explicit consent from users and being transparent about how you're using their data.
 
-
-
 <br>
 
 ## Reference Links
 
-**Resource 1: Google Analytics**  
-[Analytics Tools & Solutions for Your Business](https://marketingplatform.google.com/about/analytics/benefits/): Get a complete understanding of how your customers engage with your business.
+**Resource 1: OWASP Top 10 Web App Security Risks**  
+[OWASP Top Ten](https://owasp.org/www-project-top-ten/): A standard awareness document for developers and web application security. It represents a broad consensus about the most critical security risks to web applications.
 
-**Resource 2: A/B Testing**    
-[The Ultimate Guide To A/B Testing](https://www.smashingmagazine.com/2010/06/the-ultimate-guide-to-a-b-testing/) Gain insight into visitor behavior and to increase conversion rate. 
+**Resource 2: Code QL**    
+[About code scanning with CodeQL](https://docs.github.com/en/code-security/code-scanning/introduction-to-code-scanning/about-code-scanning-with-codeql) About code scanning with CodeQL. CodeQL is the code analysis engine developed by GitHub to automate security checks.
 
-**Resource 3: Use Cases**
-[Use Case And Use Case Testing Complete Tutorial](https://www.softwaretestinghelp.com/use-case-testing/)
+**Resource 3: SWOT Analysis**
+[SWOT Analysis Explained – Forbes Advisor](https://www.forbes.com/advisor/business/what-is-swot-analysis/) A SWOT analysis is a framework used in a business’s strategic planning to evaluate its competitive positioning in the marketplace.
 
-[What is Use Case Diagram? - Visual Paradigm](https://www.visual-paradigm.com/guide/uml-unified-modeling-language/what-is-use-case-diagram/)
-
-**Resource 4: Your First Plan**
-[The Agile Samurai](https://learning.oreilly.com/library/view/the-agile-samurai/9781680500066/f_0056.html) Chapter 8
+**Resource 4: Creativity & Innovation**
+[Creativity & Innovation | Electronic Frontier Foundation](https://www.eff.org/issues/innovation) Creativity & Innovation Our digital future depends on our ability to access, use, and build on technology. 
