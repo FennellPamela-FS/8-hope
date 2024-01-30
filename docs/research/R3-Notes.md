@@ -127,11 +127,9 @@ A review of how to apply a SWOT analysis to this project
 
 
 **Weaknesses:**
-    * 1:
+    * 1: Complexity of MERN Stack: While this stack is powerful, it can also be complex, especially for beginners. This could potentially slow down development time.
 
-    * 2:
-
-
+    * 2: Dependency on API.Bible: Your app's functionality heavily depends on the API.Bible integration. Any changes or issues with the API could affect your app.
 
 
 **Opportunities:**
