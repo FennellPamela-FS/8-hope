@@ -117,32 +117,32 @@ A SWOT analysis is a dynamic tool apply to this project and to review as you pro
 
 **Strengths:**
 
-    * 1: MERN Stack: This is a popular full-stack JavaScript solution that can speed up development time due to its cohesive nature.
+    1: MERN Stack: This is a popular full-stack JavaScript solution that can speed up development time due to its cohesive nature.
 
-    * 2: API.Bible Integration: Using this will provide you with a vast amount of biblical content, which can enhance the functionality and appeal of your app.
+    2: API.Bible Integration: Using this will provide you with a vast amount of biblical content, which can enhance the functionality and appeal of your app.
 
-    * 3: Unique Feature: The feature of exploring the eight prayer watches aligns with the bible scriptures is unique and can attract users looking for spiritual guidance.
+    3: Unique Feature: The feature of exploring the eight prayer watches aligns with the bible scriptures is unique and can attract users looking for spiritual guidance.
 
 
 **Weaknesses:**
 
-    * 1: Complexity of MERN Stack: While this stack is powerful, it can also be complex, especially for beginners. This could potentially slow down development time.
+    1: Complexity of MERN Stack: While this stack is powerful, it can also be complex, especially for beginners. This could potentially slow down development time.
 
-    * 2: Dependency on API.Bible: Your app's functionality heavily depends on the API.Bible integration. Any changes or issues with the API could affect your app.
+    2: Dependency on API.Bible: Your app's functionality heavily depends on the API.Bible integration. Any changes or issues with the API could affect your app.
 
 
 **Opportunities:**
 
-    * 1: Growing Interest in Spiritual Apps: With the increasing interest in spiritual apps, there's a growing market for your Bible app.
+    1: Growing Interest in Spiritual Apps: With the increasing interest in spiritual apps, there's a growing market for your Bible app.
 
-    * 2: Personal Devotionals: Many people use personal devotionals as a way to connect with God. Your app could fill a gap in this market by providing a unique, interactive experience.
+    2: Personal Devotionals: Many people use personal devotionals as a way to connect with God. Your app could fill a gap in this market by providing a unique, interactive experience.
 
 
 **Threats:**
 
-    * 1: Competition: There are many Bible apps already in the market. To stand out, your app needs to offer something truly unique.
+    1: Competition: There are many Bible apps already in the market. To stand out, your app needs to offer something truly unique.
 
-    * 2: User Privacy Concerns: As your app will likely require user accounts, you need to ensure you handle user data responsibly to avoid privacy concerns.
+    2: User Privacy Concerns: As your app will likely require user accounts, you need to ensure you handle user data responsibly to avoid privacy concerns.
 
 <br>
 
