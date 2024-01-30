@@ -116,7 +116,7 @@ CodeQL allows you to identify vulnerabilities and errors in your code. Using cod
 <br>
 
 ## Sub-Topic 3 - SWOT Analysis
-A review of how to apply a SWOT analysis to this project
+A SWOT analysis is a dynamic tool apply to this project and to review as you progress with your project. Revisit to assess initial assumptions to see if they still hold and to identify new opportunities and threats.
 
 **Strengths:**
 
