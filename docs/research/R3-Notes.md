@@ -93,23 +93,25 @@ Security is a continuous process and not a one-time task. Therefore staying up t
 <br>
 
 ## Sub-Topic 2 -  Code QL
-CodeQL allows you to identify vulnerabilities and errors in your code. Using code analysis to detect potential issues.
+CodeQL allows you to identify vulnerabilities and errors in your code. Using code analysis to detect potential issues. Apply these principles to help identify vulnerabilities and errors in your code
 * 1: Vulnerability Identification:
     - can identify vulnerabilities in your code, providing you with detailed insights into potential security risks. The results are displayed as code scanning alerts in GitHub.
+    - This can help you spot security risks early in the development process, allowing you to fix them before they become a problem.
+
 
 * 2: Supported Languages: 
     - supports a wide range of programming languages including C and C++, C#, Go, Java and Kotlin, JavaScript and TypeScript, Python, Ruby, and Swift.
+    - Since this app primarily consists of JavaScript, you can use CodeQL to analyze your JavaScript code.
 
 * 3: Integration with GitHub: 
-    - meaning you can use it to scan all your repositories hosted on GitHub. The results are displayed right in GitHub, making it easy to manage and respond to identified issues.
+    - Use CodeQL to scan your repositories.
+    - The results are displayed right in GitHub, making it easy to manage and respond to identified issues.
 
 * 4: Availability:
     -  CodeQL is available for all public repositories on GitHub.com. For private repositories, it's available for organizations that use GitHub Enterprise Cloud and have a license for GitHub Advanced Security.
 
 * 5: External CI Systems:
     - You can run the CodeQL CLI directly in an external Continuous Integration (CI) system and upload the results to GitHub. This provides flexibility in managing your CI pipeline and integrating CodeQL into your existing workflow. 
-
-
 
 <br>
 
