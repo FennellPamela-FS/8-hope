@@ -16,7 +16,8 @@ This document is a template for ongoing research. Delete this first paragraph an
 This document contains general notes related to security and compliance
 - OWASP Top 10 Web App Security Risks
 - Code QL
-- SWOT Analyis
+- SWOT Analysis
+- Creativity & Innovation
 
 
 
@@ -149,8 +150,24 @@ A SWOT analysis is a dynamic tool apply to this project and to review as you pro
 
 <br>
 
-## Sub-Topic 4 - 
-    
+## Sub-Topic 4 - Creativity & Innovation
+A review of the EFF topics on 'Creativity & Innovation' and how they could be relative to this project, and guide your development process.
+
+* 1: Fair Use: EFF advocates for fair use rights, which means that creative works should be protected, but also that they can be used in various ways without permission from the copyright holder. This is particularly relevant if your app plans to share or display any copyrighted material, such as Bible verses or images. You should ensure that your use of such material complies with fair use laws.
+
+
+* 2: Open Access: EFF promotes open access to information and ideas. If your app provides access to Bible verses or teachings, it aligns with this principle. Open access ensures that the information is freely available to everyone.
+
+
+* 3: Innovation: EFF supports innovation in technology. Your Bible app is an innovative project that brings together technology and spirituality. It's important to continue fostering this spirit of innovation throughout your project.
+
+
+* 4: Digital Freedom: EFF fights for digital freedom, which includes the right to tinker with technology. As you develop your app, you'll likely encounter challenges and limitations. EFF's philosophy of standing up for digital freedom can provide motivation and guidance.
+
+* 5: Digital Rights: EFF works to protect digital rights, including the right to privacy. If your app collects user data, you'll need to ensure you're handling it responsibly. This includes getting explicit consent from users and being transparent about how you're using their data.
+
+
+
 <br>
 
 ## Reference Links
