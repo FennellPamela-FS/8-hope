@@ -115,7 +115,40 @@ CodeQL allows you to identify vulnerabilities and errors in your code. Using cod
 
 <br>
 
-## Sub-Topic 3 - 
+## Sub-Topic 3 - SWOT Analysis
+A review of how to apply a SWOT analysis to this project
+
+**Strengths:**
+    * 1: MERN Stack: This is a popular full-stack JavaScript solution that can speed up development time due to its cohesive nature.
+
+    * 2: API.Bible Integration: Using this will provide you with a vast amount of biblical content, which can enhance the functionality and appeal of your app.
+
+    * 3: Unique Feature: The feature of exploring the eight prayer watches aligns with the bible scriptures is unique and can attract users looking for spiritual guidance.
+
+
+**Weaknesses:**
+    * 1:
+
+    * 2:
+
+
+
+
+**Opportunities:**
+    * 1:
+
+    * 2:
+
+
+
+
+**Threats:**
+    * 1:
+
+    * 2:
+
+
+
 
 <br>
 
