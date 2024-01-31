@@ -21,6 +21,7 @@ yarn-error.log*
 
 # ENV Vars
 .env
+.env.test
 
 # Images, PDFs, ZIPs, etc. 
 # *.jpg
