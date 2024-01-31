@@ -1,9 +1,20 @@
 import Image from "next/image";
 import styles from "./page.module.css";
+import Switch from "@mui/material/Switch";
+
+const label = { inputProps: { "aria-label": "Switch demo" } };
 
 export default function Home() {
   return (
     <main className={styles.main}>
+      <div className="{styles.container}">
+        <div>
+          <span>With default Theme:</span>
+        </div>
+        <Switch {...label} defaultChecked />
+        <Switch {...label} />
+        <Switch {...label} disabled defaultChecked />
+      </div>
       <div className={styles.description}>
         <p>
           Get started by editing&nbsp;
