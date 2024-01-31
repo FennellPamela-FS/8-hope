@@ -1,5 +1,4 @@
 // ThemeRegistry.js
-
 'use client';
 import { useState } from 'react';
 import createCache from '@emotion/cache';
@@ -11,8 +10,9 @@ import theme from './theme';
 
 // This implementation is from emotion-js
 // https://github.com/emotion-js/emotion/issues/2928#issuecomment-1319747902
-function ThemeRegistry(props) {
+export default function ThemeRegistry(props) {
     const { options, children } = props;
+
     const [{ cache, flush }] = useState(() => {
         const cache = createCache(options);
         cache.compat = true;
@@ -32,6 +32,7 @@ function ThemeRegistry(props) {
         };
         return { cache, flush };
     });
+
     useServerInsertedHTML(() => {
         const names = flush();
         if (names.length === 0) {
@@ -51,6 +52,7 @@ function ThemeRegistry(props) {
             />
         );
     });
+
     return (
         <CacheProvider value={cache}>
             <ThemeProvider theme={theme}>
@@ -60,5 +62,3 @@ function ThemeRegistry(props) {
         </CacheProvider>
     );
 }
-
-export default ThemeRegistry(props);
