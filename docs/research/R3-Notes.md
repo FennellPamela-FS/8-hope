@@ -133,14 +133,14 @@ A SWOT analysis is a dynamic tool apply to this project and to review as you pro
 
 **Opportunities:**
 
-    1: Growing Interest in Spiritual Apps: With the increasing interest in spiritual apps, there's a growing market for your Bible app.
+    1: Growing Interest in Spiritual Apps: With the increasing interest in spiritual apps, there's a growing market for your 8Hope app.
 
     2: Personal Devotionals: Many people use personal devotionals as a way to connect with God. Your app could fill a gap in this market by providing a unique, interactive experience.
 
 
 **Threats:**
 
-    1: Competition: There are many Bible apps already in the market. To stand out, your app needs to offer something truly unique.
+    1: Competition: There are many Bible like apps already in the market. To stand out, your app needs to offer something truly unique.
 
     2: User Privacy Concerns: As your app will likely require user accounts, you need to ensure you handle user data responsibly to avoid privacy concerns.
 
@@ -155,7 +155,7 @@ A review of the EFF topics on 'Creativity & Innovation' and how they could be re
 * 2: Open Access: EFF promotes open access to information and ideas. If your app provides access to Bible verses or teachings, it aligns with this principle. Open access ensures that the information is freely available to everyone.
 
 
-* 3: Innovation: EFF supports innovation in technology. Your Bible app is an innovative project that brings together technology and spirituality. It's important to continue fostering this spirit of innovation throughout your project.
+* 3: Innovation: EFF supports innovation in technology. Your 8Hope app is an innovative project that brings together technology and spirituality. It's important to continue fostering this spirit of innovation throughout your project.
 
 
 * 4: Digital Freedom: EFF fights for digital freedom, which includes the right to tinker with technology. As you develop your app, you'll likely encounter challenges and limitations. EFF's philosophy of standing up for digital freedom can provide motivation and guidance.
