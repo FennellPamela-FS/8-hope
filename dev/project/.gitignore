@@ -1,3 +1,6 @@
+#Misc
+old-client/
+
 # Dependency Directory
 node_modules/
 package-lock.json
