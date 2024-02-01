@@ -11,7 +11,7 @@ import MenuIcon from '@mui/icons-material/Menu';
 // import * as NextLink from 'next/link';
 import { Link as NextLink } from 'next/link';
 
-const pages = ['Home', 'about', 'Services', 'Contact'];
+const pages = ['Home', 'about', 'welcome', 'Contact'];
 
 export default function ButtonAppBar() {
     return (
