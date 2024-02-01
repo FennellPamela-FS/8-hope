@@ -13,18 +13,18 @@ export default function Home() {
   return (
     <main className={styles.main}>
       <div className="{styles.container}">
-        <div>
+        <div className={styles.flowStart}>
           <span>With default Theme:</span>
-        </div>
-        <Switch {...label} defaultChecked />
-        <Switch {...label} />
-        <Switch {...label} disabled defaultChecked />
-        <CustomSlider warning={true} />
-        <CustomSlider warning={false} />
-        <Link component={NextLink} href="/about">To About page</Link>
-        {/* <Link href="/about">
+          <Switch {...label} defaultChecked />
+          <Switch {...label} />
+          <Switch {...label} disabled defaultChecked />
+          <CustomSlider warning={true} />
+          <CustomSlider warning={false} />
+          <Link component={NextLink} href="/about">To About page</Link>
+          {/* <Link href="/about">
           To About page
         </Link> */}
+        </div>
       </div>
       <div className={styles.description}>
         <p>
