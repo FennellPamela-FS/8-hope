@@ -1,5 +1,6 @@
 // ThemeRegistry.js
-'use client';
+'use client'; // define client component
+
 import { useState } from 'react';
 import createCache from '@emotion/cache';
 import { useServerInsertedHTML } from 'next/navigation';
