@@ -18,6 +18,17 @@
   border-radius: 24px; 
 }
 
+.avBox {
+  width: 128; 
+  height: 128; 
+  color: azure;
+  background: #D8D8D8; 
+  border-radius: 8; 
+  padding: 2;
+  display: 'grid';
+  gap: 2;
+
+}
 
 
 /* End Custom Css for 8Hope 

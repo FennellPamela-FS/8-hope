@@ -2,6 +2,7 @@
 import * as React from 'react';
 import styles from "../page.module.css";
 import Box from '@mui/material/Box';
+import Paper from '@mui/material/Paper';
 import Button from '@mui/material/Button';
 import Link from '@mui/material/Link';
 // import * as NextLink from 'next/link';
@@ -12,6 +13,7 @@ import Copyright from '@/components/Copyright';
 import Avatar from '@mui/material/Avatar';
 import Stack from '@mui/material/Stack';
 import { deepOrange, deepPurple } from '@mui/material/colors';
+import { Container } from '@mui/material';
 
 export default function Welcome() {
     return (
@@ -25,10 +27,20 @@ export default function Welcome() {
                     alignItems: 'center',
                 }}
             >
-                <Stack direction="row" spacing={2}>
-                    <Avatar sx={{ bgcolor: deepPurple[500] }}>PW</Avatar>
-                </Stack>
-                <h1 sx={{ mb: 2 }}>
+
+                <Box
+                    sx={{
+                        p: 2,
+                        borderRadius: 8,
+                        bgcolor: '#D8D8D8',
+                        width: '128px',
+                        height: '128px',
+                        display: 'grid',
+                        gridTemplateColumns: { md: '1fr 1fr' },
+                        gap: 2,
+                    }}
+                />
+                <h1 h1 sx={{ mb: 2 }}>
                     8 Hope
                 </h1>
                 <Tagline />
