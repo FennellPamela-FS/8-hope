@@ -45,7 +45,7 @@ export default function Welcome() {
                 </h1>
                 <Tagline />
                 <Box sx={{ maxWidth: 'sm' }}>
-                    <Button sx={{ mb: 2 }} variant="contained" component={NextLink} href="/">
+                    <Button sx={{ mb: 2 }} variant="contained" component={NextLink} href="/content">
                         Get Started
                     </Button>
                 </Box>
