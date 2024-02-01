@@ -9,6 +9,10 @@ import { Link as NextLink } from 'next/link';
 import Tagline from '@/components/Tageline';
 import Copyright from '@/components/Copyright';
 
+import Avatar from '@mui/material/Avatar';
+import Stack from '@mui/material/Stack';
+import { deepOrange, deepPurple } from '@mui/material/colors';
+
 export default function Welcome() {
     return (
         <div className={styles.container}>
@@ -21,6 +25,9 @@ export default function Welcome() {
                     alignItems: 'center',
                 }}
             >
+                <Stack direction="row" spacing={2}>
+                    <Avatar sx={{ bgcolor: deepPurple[500] }}>PW</Avatar>
+                </Stack>
                 <h1 sx={{ mb: 2 }}>
                     8 Hope
                 </h1>
