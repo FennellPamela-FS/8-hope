@@ -24,12 +24,12 @@ export default function Welcome() {
                 <h1 sx={{ mb: 2 }}>
                     8 Hope
                 </h1>
+                <Tagline />
                 <Box sx={{ maxWidth: 'sm' }}>
-                    <Button variant="contained" component={NextLink} href="/">
+                    <Button sx={{ mb: 2 }} variant="contained" component={NextLink} href="/">
                         Get Started
                     </Button>
                 </Box>
-                <Tagline />
                 <Copyright />
             </Box>
             <div>Welcome Page</div>
