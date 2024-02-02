@@ -14,6 +14,7 @@ import { Typography } from '@mui/material';
 const wakeTime = ['6:00 PM - 9:00 PM', '9:00 PM - 12:00 AM', '12:00 AM - 3:00 AM', '3:00 AM - 6:00 AM', '6:00 AM - 9:00 AM', '9:00 AM - 12:00 PM', '12:00 PM - 3:00 PM',];
 const watchTime = ['1', '2', '3', '4', '5', '6', '7', '8'];
 
+
 export default function Content() {
     return (
         <div className={styles.container}>
@@ -39,8 +40,8 @@ export default function Content() {
                         {wake}
                     </Box>
                 ))}
-
-                {/* {wakeTime.map((wake) => (
+                {/* 
+                {wakeTime.map((wake) => (
                     <Button className={styles.avBox}
                         component={NextLink} href={`/content`}
                         key={wake}
