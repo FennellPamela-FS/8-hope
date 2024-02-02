@@ -10,6 +10,7 @@ import { Link as NextLink } from 'next/link';
 import Tagline from '@/components/Tageline';
 import Copyright from '@/components/Copyright';
 import { Typography } from '@mui/material';
+import PrayerWatchTimesList from '@/components/PrayerWatchTimesList';
 
 const wakeTime = ['6:00 PM - 9:00 PM', '9:00 PM - 12:00 AM', '12:00 AM - 3:00 AM', '3:00 AM - 6:00 AM', '6:00 AM - 9:00 AM', '9:00 AM - 12:00 PM', '12:00 PM - 3:00 PM',];
 const watchTime = ['1', '2', '3', '4', '5', '6', '7', '8'];
@@ -31,27 +32,7 @@ export default function Content() {
                 <h2 h1 sx={{ mb: 2 }}>
                     Awake? What time is it?
                 </h2>
-                {wakeTime.map((wake) => (
-
-                    <Box className={styles.avBox}
-                        key={wake}
-                        sx={{ my: 1 }}
-                    >
-                        {wake}
-                    </Box>
-                ))}
-                {/* 
-                {wakeTime.map((wake) => (
-                    <Button className={styles.avBox}
-                        component={NextLink} href={`/content`}
-                        key={wake}
-                        sx={{ my: 2, color: 'blue', display: 'block' }}
-                    >
-                        <Typography variant='h6'>
-                            {wake}
-                        </Typography>
-                    </Button>
-                ))} */}
+                <PrayerWatchTimesList />
                 <Tagline />
                 <Box sx={{ maxWidth: 'sm' }}>
                     <Button sx={{ mb: 2 }} variant="contained" component={NextLink} href="/">
