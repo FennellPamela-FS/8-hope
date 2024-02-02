@@ -46,6 +46,18 @@ Each week I will summarize my milestone activity and progress by writing a stand
 
 <br>
 
+### Week 3
+
+⚙️ Overview - Protecting Your Business & Customers
+<br>
+🌵 Challenges - Seeing the need to think broadly about what I manage overall (not just in this course) and then narrow down what I plan to achieve in a set timeframe.  
+<br>
+🏆 Accomplishments - API Integration part 1, Integrate MUI with Next.js, Completed a couple views on the frontend
+<br>
+🔮 Next Steps - Address critical issues first. Save data from API into DB, State Management with Zustand, Finish all views.
+
+
+
 
 
 
