@@ -1,0 +1,10 @@
+import { useWatchStore } from '../hooks/watch-store';
+
+const watchComponent = () => {
+    const prayerWatches = useWatchStore(state => state.prayerWatches);
+    const setPrayerWatches = useWatchStore(state => state.setPrayerWatches);
+
+     // Now you can use prayerWatches and setPrayerWatches in your component.
+}
+
+export default watchComponent;

@@ -171,12 +171,19 @@ Compliance with [Terms of Service](https://scripture.api.bible/): This project i
 
 * The proposal document summarizes the project scope. 
 * Work that is need to reach completion:
-   - * implement and create features
-   - * develop features functionality
-   - * implement UI design and color scheme
-   - * integration API
+   - implement and create features
+   - develop features functionality
+   - implement UI design and color scheme
+   - integration API
 * List and describe any proposed changes to the original project scope
-   - * - Implement customizable push notifications to remind users of prayer watch times. These reminders can help them make the most of their nighttime awakenings for purposeful prayer.
-   - * -Use scripture.api.bible to fetch verses of the day.
+   >  * Implement customizable push notifications to remind users of prayer watch times. These reminders can help them make the most of their nighttime awakenings for purposeful prayer.
+   > * Use scripture.api.bible to fetch verses of the day.
+   
 
+* **MILESTONE 4 Update**
+   - dropping the setting feature for (customizable push notifications)
+
+<br>
+
+---
 Keep in mind, approval is needed for proposed work and may include peer or instructor review(s). If you are unsure about your proposed ideas feel free to reach out to us for guidance.   

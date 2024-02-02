@@ -1,3 +1,6 @@
+#Misc
+old-client/
+
 # Dependency Directory
 node_modules/
 package-lock.json
@@ -21,6 +24,7 @@ yarn-error.log*
 
 # ENV Vars
 .env
+.env.test
 
 # Images, PDFs, ZIPs, etc. 
 # *.jpg
