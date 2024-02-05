@@ -28,8 +28,8 @@ export default function WatchOne() {
                 </h1>
                 <First />
                 <Box sx={{ maxWidth: 'sm', mt: 1.5 }} >
-                    <Button variant="contained" component={NextLink} href="/content">
-                        Go to the home page
+                    <Button variant="contained" component={NextLink} href="/finish">
+                        Continue
                     </Button>
                 </Box>
                 <ProTip />
