@@ -29,7 +29,7 @@ export default function Content() {
                 }}
             >
 
-                <h2 h1 sx={{ mb: 2 }}>
+                <h2 sx={{ mb: 2 }}>
                     Awake? What time is it?
                 </h2>
                 <PrayerWatchTimesList />

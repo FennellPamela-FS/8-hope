@@ -40,7 +40,7 @@ export default function Welcome() {
                         gap: 2,
                     }}
                 />
-                <h1 h1 sx={{ mb: 2 }}>
+                <h1 sx={{ mb: 2 }}>
                     8 Hope
                 </h1>
                 <Tagline />
