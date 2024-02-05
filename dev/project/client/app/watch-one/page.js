@@ -1,4 +1,4 @@
-// app/about/pages.js
+// docs / wires /05 Customization3.png
 import * as React from 'react';
 import styles from "../page.module.css";
 import Box from '@mui/material/Box';
@@ -8,9 +8,10 @@ import Link from '@mui/material/Link';
 import { Link as NextLink } from 'next/link';
 import ProTip from '@/components/ProTip';
 import Copyright from '@/components/Copyright';
+import First from '@/app/components/First';
 
-// docs/wires/07 All set.png
-export default function Finish() {
+// docs / wires /05 Customization3.png
+export default function WatchOne() {
     return (
         <div className={styles.container}>
             <Box
@@ -23,11 +24,12 @@ export default function Finish() {
                 }}
             >
                 <h1 sx={{ mb: 2 }}>
-                    Material UI - Next.js example
+                    Watch One: 6 PM - 9 PM
                 </h1>
-                <Box sx={{ maxWidth: 'sm' }}>
-                    <Button variant="contained" component={NextLink} href="/">
-                        Go to the home page
+                <First />
+                <Box sx={{ maxWidth: 'sm', mt: 1.5 }} >
+                    <Button variant="contained" component={NextLink} href="/finish">
+                        Continue
                     </Button>
                 </Box>
                 <ProTip />

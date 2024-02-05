@@ -1,22 +1,17 @@
-// app/about/pages.js
+// docs / wires /05 Customization3.png
 import * as React from 'react';
 import styles from "../page.module.css";
 import Box from '@mui/material/Box';
-import Paper from '@mui/material/Paper';
 import Button from '@mui/material/Button';
 import Link from '@mui/material/Link';
 // import * as NextLink from 'next/link';
 import { Link as NextLink } from 'next/link';
-import Tagline from '@/components/Tageline';
+import ProTip from '@/components/ProTip';
 import Copyright from '@/components/Copyright';
-import { Typography } from '@mui/material';
-import PrayerWatchTimesList from '@/components/PrayerWatchTimesList';
+import Eighth from '@/app/components/Eighth';
 
-// const wakeTime = ['6:00 PM - 9:00 PM', '9:00 PM - 12:00 AM', '12:00 AM - 3:00 AM', '3:00 AM - 6:00 AM', '6:00 AM - 9:00 AM', '9:00 AM - 12:00 PM', '12:00 PM - 3:00 PM',];
-// const watchTime = ['1', '2', '3', '4', '5', '6', '7', '8'];
-
-
-export default function Content() {
+// docs / wires /05 Customization3.png
+export default function WatchEight() {
     return (
         <div className={styles.container}>
             <Box
@@ -28,20 +23,19 @@ export default function Content() {
                     alignItems: 'center',
                 }}
             >
-
-                <h2 sx={{ mb: 2 }}>
-                    Awake? What time is it?
-                </h2>
-                <PrayerWatchTimesList />
-                <Tagline />
-                <Box sx={{ maxWidth: 'sm' }}>
-                    <Button sx={{ mb: 2 }} variant="contained" component={NextLink} href="/">
+                <h1 sx={{ mb: 2 }}>
+                    Watch Eight: 3 PM - 6 PM
+                </h1>
+                <Eighth />
+                <Box sx={{ maxWidth: 'sm', mt: 1.5 }} >
+                    <Button variant="contained" component={NextLink} href="/finish">
                         Continue
                     </Button>
                 </Box>
+                <ProTip />
                 <Copyright />
             </Box>
-            <Link component={NextLink} href="/welcome">Welcome page</Link>
+            <div>About Page</div>
             <Link component={NextLink} href="/">To Home page</Link>
             {/* <Link href="/">
                 To Home page

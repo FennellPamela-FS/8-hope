@@ -8,6 +8,7 @@ import Link from '@mui/material/Link';
 import { Link as NextLink } from 'next/link';
 import ProTip from '@/components/ProTip';
 import Copyright from '@/components/Copyright';
+import Fourth from '@/app/components/Fourth';
 
 // docs / wires /05 Customization3.png
 export default function WatchFour() {
@@ -23,11 +24,12 @@ export default function WatchFour() {
                 }}
             >
                 <h1 sx={{ mb: 2 }}>
-                    Material UI - Next.js example
+                    Watch Four: 3 AM - 6AM
                 </h1>
-                <Box sx={{ maxWidth: 'sm' }}>
-                    <Button variant="contained" component={NextLink} href="/">
-                        Go to the home page
+                <Fourth />
+                <Box sx={{ maxWidth: 'sm', mt: 1.5 }} >
+                    <Button variant="contained" component={NextLink} href="/finish">
+                        Continue
                     </Button>
                 </Box>
                 <ProTip />
