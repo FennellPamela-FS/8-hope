@@ -122,6 +122,7 @@ This app introduces customized preferences and notification reminders to help ad
 - Prayer App [Focus with our Prayer App](https://createdisciples.com/prayer-app/?gad=1&gclid=Cj0KCQjwmICoBhDxARIsABXkXlIp8L-tOhoHF0BAbV7wVfss3w6UOtF-XqBnthdawzqBbZQN0egjpokaAsP9EALw_wcB)
 - Prayer Watch [Prayer Times & Qibla w/ Widget](https://apps.apple.com/us/app/pray-watch/id989923828)
 - Watch + Pray [Website](https://watchandprayapp.com/) and [App](https://play.google.com/store/apps/details?id=com.watch.mobile&hl=en_US&gl=US)
+- Blog [God's Altar and You](https://godsaltarandyou.com/prayer-watches/#google_vignette)
 
 
 ### Indirect Competition

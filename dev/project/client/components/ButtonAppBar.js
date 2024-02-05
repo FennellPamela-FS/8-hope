@@ -19,7 +19,7 @@ export default function ButtonAppBar() {
             <AppBar position="static">
                 <Toolbar>
                     <Typography variant="h5" component="div" sx={{ flexGrow: 1 }}>
-                        Your Logo
+                        8 Hope
                     </Typography>
                     <Box sx={{ flexGrow: 1, display: { xs: 'none', md: 'flex' } }}>
                         {pages.map((page) => (

@@ -6,9 +6,9 @@ import Button from '@mui/material/Button';
 import Link from '@mui/material/Link';
 // import * as NextLink from 'next/link';
 import { Link as NextLink } from 'next/link';
-import ProTip from '@/components/ProTip';
 import Copyright from '@/components/Copyright';
 import First from '@/app/components/First';
+import Tagline from '@/components/Tagline';
 
 // docs / wires /05 Customization3.png
 export default function WatchOne() {
@@ -32,7 +32,7 @@ export default function WatchOne() {
                         Continue
                     </Button>
                 </Box>
-                <ProTip />
+                <Tagline />
                 <Copyright />
             </Box>
             <div>About Page</div>
