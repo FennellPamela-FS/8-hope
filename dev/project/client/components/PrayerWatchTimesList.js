@@ -14,14 +14,14 @@ const PrayerWatchTimesList = () => {
 
     // Define a mapping of prayer watch times to route paths
     const prayerWatchRoutes = {
-        '3:00 PM - 6:00 PM': 'watch-one',
-        '6:00 PM - 9:00 PM': 'watch-two',
-        '9:00 PM - 12:00 AM': 'watch-three',
-        '12:00 AM - 3:00 AM': 'watch-four',
-        '3:00 AM - 6:00 AM': 'watch-five',
-        '6:00 AM - 9:00 AM': 'watch-six',
-        '9:00 AM - 12:00 PM': 'watch-seven',
-        '12:00 PM - 3:00 PM': 'watch-eight',
+        '6:00 PM - 9:00 PM': 'watch-one',
+        '9:00 PM - 12:00 AM': 'watch-two',
+        '12:00 AM - 3:00 AM': 'watch-three',
+        '3:00 AM - 6:00 AM': 'watch-four',
+        '6:00 AM - 9:00 AM': 'watch-five',
+        '9:00 AM - 12:00 PM': 'watch-six',
+        '12:00 PM - 3:00 PM': 'watch-seven',
+        '3:00 PM - 6:00 PM': 'watch-eight',
         // ... add other mappings here
     };
 

@@ -23,10 +23,10 @@ export default function WatchFour() {
                 }}
             >
                 <h1 sx={{ mb: 2 }}>
-                    Material UI - Next.js example
+                    Watch Four: 3 AM - 6AM
                 </h1>
                 <Box sx={{ maxWidth: 'sm' }}>
-                    <Button variant="contained" component={NextLink} href="/">
+                    <Button variant="contained" component={NextLink} href="/content">
                         Go to the home page
                     </Button>
                 </Box>

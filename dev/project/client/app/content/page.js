@@ -12,8 +12,8 @@ import Copyright from '@/components/Copyright';
 import { Typography } from '@mui/material';
 import PrayerWatchTimesList from '@/components/PrayerWatchTimesList';
 
-const wakeTime = ['6:00 PM - 9:00 PM', '9:00 PM - 12:00 AM', '12:00 AM - 3:00 AM', '3:00 AM - 6:00 AM', '6:00 AM - 9:00 AM', '9:00 AM - 12:00 PM', '12:00 PM - 3:00 PM',];
-const watchTime = ['1', '2', '3', '4', '5', '6', '7', '8'];
+// const wakeTime = ['6:00 PM - 9:00 PM', '9:00 PM - 12:00 AM', '12:00 AM - 3:00 AM', '3:00 AM - 6:00 AM', '6:00 AM - 9:00 AM', '9:00 AM - 12:00 PM', '12:00 PM - 3:00 PM',];
+// const watchTime = ['1', '2', '3', '4', '5', '6', '7', '8'];
 
 
 export default function Content() {
