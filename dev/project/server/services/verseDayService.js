@@ -1,6 +1,7 @@
 const axios = require('axios');
 const apiKey = require('../api/apiKey');
 require('dotenv').config();
+// require("dotenv").config('./env')
 
 const BIBLE_ID = process.env.BIBLE_ID;
 const VERSES = [
@@ -29,8 +30,8 @@ const VERSES = [
 async function verseDayService() {
     const verseIndex = Math.floor(Math.random() * VERSES.length);
     const verseID = VERSES[verseIndex];
-    // const verseDayURL = `${process.env.BASE_URL}/${BIBLE_ID}/search?query=${verseID}&sort=relevance`;
-    const verseDayURL = `${process.env.BASE_URL}/${BIBLE_ID}/verses/${verseID}`;
+    const verseDayURL = `${process.env.BASE_URL}/${BIBLE_ID}/search?query=${verseID}`;
+    // const verseDayURL = `${process.env.BASE_URL}/${BIBLE_ID}/verses/${verseID}`;
 
     try {
         const response = await axios.get(`${verseDayURL}`, {
@@ -49,9 +50,27 @@ async function verseDayService() {
     }
     console.log('REAL verse of the Day data ' + `${verseDayURL}`);
     // return await axios.get(`${verseDayURL}`);
+    return await axios.get(`${verseID}`);
 }
 
-verseDayService();
+// verseDayService();
+
+// Assuming you have a function getResults that fetches data from the API
+async function getResults(verseID) {
+    try {
+        const response = await axios.get(`${verseDayURL}`, {
+            headers: {
+                'api-key': process.env.API_KEY
+            }
+        });
+        const { data, meta } = response.data;
+        // Do something with data and meta...
+        return data;
+    } catch (error) {
+        console.error(error);
+    }
+}
+
 
 
 // const verseDayUrl = process.env.BASE_URL;
@@ -95,6 +114,7 @@ verseDayService();
 
 module.exports = {
     verseDayService,
+    getResults,
     // fetchRandomVerse
     // verseDayServiceById
 };
