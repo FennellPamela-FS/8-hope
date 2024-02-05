@@ -27,7 +27,7 @@ export default function WatchFour() {
                     Watch Four: 3 AM - 6AM
                 </h1>
                 <Fourth />
-                <Box sx={{ maxWidth: 'sm' }}>
+                <Box sx={{ maxWidth: 'sm', mt: 1.5 }} >
                     <Button variant="contained" component={NextLink} href="/content">
                         Go to the home page
                     </Button>
