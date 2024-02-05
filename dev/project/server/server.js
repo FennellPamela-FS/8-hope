@@ -2,17 +2,15 @@
 // Backend Server
 
 const http = require('http');
-// const app = require('./app/app');
-// const port = process.env.PORT || 5000;
-// require('dotenv').config();
-
+require('dotenv').config();
 const express = require('express');
 const cors = require('cors');
-require("dotenv").config('./env')
+const axios = require('axios');
 const port = process.env.PORT || 5000;
 
 // import routes
-const verseDayRouter = require('./routes/verseDayRouter');
+// const verseDayRouter = require('./routes/verseDayRouter');
+const verseRouter = require('./routes/verseRouter');
 
 
 const app = express();
@@ -20,14 +18,17 @@ const app = express();
 app.use(cors())
 app.use(express.json())
 // app.use(require('./routes/verseDayRouter'))
+app.use(require('./routes/verseRouter.js'))
 
 
 app.get('/', (req, res) => {
+    // res.status(200).json({ message: `Service us up on ${port}!` })
     res.send(`Hello from Express on ${port}!`)
 })
 
 // Router: verseDay 
-app.use('/vod', verseDayRouter);
+// app.use('/vod', verseDayRouter);
+app.use('/verse', verseRouter);
 
 app.use((req, res, next) => {
     const error = new Error("Not Found");

@@ -25,7 +25,7 @@ const verseDayRouter = express.Router();
 // verseDayRouter.use(cors());
 // verseDayRouter.use(express.json());
 
-verseDayRouter.get('/', (req, res, next) => {
+verseDayRouter.get('/vod', (req, res, next) => {
     verseDayService()
         .then(result => {
             res.status(200).json(result.data);
@@ -58,6 +58,22 @@ verseDayRouter.get('/', (req, res, next) => {
 //         });
 // });
 
+verseDayRouter.get('/vodr', (req, res, next) => {
+    getResults()
+        .then(result => {
+            res.status(200).json({
+                result: result.data
+            });
+        })
+        .catch(err => {
+            res.status(500).json({
+                error: {
+                    message: err.message
+                },
+            });
+        });
+});
+
 // verseDayRouter.get('/:id', (req, res, next) => {
 //     verseDayServiceById(req.params.id)
 //         .then(result => {
@@ -73,6 +89,5 @@ verseDayRouter.get('/', (req, res, next) => {
 //             });
 //         });
 // });
-
 
 module.exports = verseDayRouter;
