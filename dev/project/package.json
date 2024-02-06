@@ -1,0 +1,19 @@
+{
+  "dependencies": {
+    "nodemon": "^3.0.3"
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  },
+  "name": "project",
+  "description": "# Project & Portfolio ### Pamela Fennell",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "dev": "concurrently \"cd server && npm run dev\" \"cd client && npm run dev\"",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
