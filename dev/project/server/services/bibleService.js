@@ -1,33 +1,33 @@
 // communicate with API.Bible
-import { Bar } from 'recharts';
 
 const axios = require('axios');
+const apiKey = require('../api/apiKey');
 require('dotenv').config();
 
-const options = {
-    headers: {
-        'x-api-key': process.env.API_KEY,
-    }
-}
+
 
 const url = process.env.BASE_URL;
 const version = process.env.BIBLE_ID;
-const chapter = 'JHN';
+const verse = 'JHN.3.16';
 
-// const BibleService = async (book, chapter, verse) => {
-//     console.log("Bible Service on Backend");
-//     return await axios.get(`${url}/bible/${book}/${chapter}/${verse}`, options);
-// }; 
+const options = {
+    headers: {
+        'api-key': `${apiKey}`
+    }
+}
+
 
 // BASE_URL = 'https://api.scripture.api.bible/v1/bibles'
 
-const getDailyReading = async (date) => {
+
+const bibleService = async () => {
     console.log("Bible Service on Backend");
-    return await axios.get(`${url}/${version}/chapter/${chapter}/verses`, options);
+    return await axios.get(`${url}/${version}/verses/${verse}`, options);
+}
+
+
+
+
+module.exports = {
+    bibleService
 };
-
-
-
-
-
-module.exports = BibleService;
