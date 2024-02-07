@@ -1,21 +1,15 @@
-// app/about/pages.js
 import * as React from 'react';
 import styles from "../page.module.css";
 import Box from '@mui/material/Box';
-import Paper from '@mui/material/Paper';
 import Button from '@mui/material/Button';
 import Link from '@mui/material/Link';
 // import * as NextLink from 'next/link';
 import { Link as NextLink } from 'next/link';
-import Tagline from '@/components/Tageline';
+import ProTip from '@/components/ProTip';
 import Copyright from '@/components/Copyright';
 
-import Avatar from '@mui/material/Avatar';
-import Stack from '@mui/material/Stack';
-import { deepOrange, deepPurple } from '@mui/material/colors';
-import { Container } from '@mui/material';
-
-export default function Welcome() {
+// docs / wires /04 Customization2.png
+export default function WatchSelection() {
     return (
         <div className={styles.container}>
             <Box
@@ -27,31 +21,18 @@ export default function Welcome() {
                     alignItems: 'center',
                 }}
             >
-
-                <Box
-                    sx={{
-                        p: 2,
-                        borderRadius: 8,
-                        bgcolor: '#D8D8D8',
-                        width: '128px',
-                        height: '128px',
-                        display: 'grid',
-                        gridTemplateColumns: { md: '1fr 1fr' },
-                        gap: 2,
-                    }}
-                />
                 <h1 sx={{ mb: 2 }}>
-                    8 Hope
+                    Material UI - Next.js example
                 </h1>
-                <Tagline />
                 <Box sx={{ maxWidth: 'sm' }}>
-                    <Button sx={{ mb: 2 }} variant="contained" component={NextLink} href="/content">
-                        Get Started
+                    <Button variant="contained" component={NextLink} href="/">
+                        Go to the home page
                     </Button>
                 </Box>
+                <ProTip />
                 <Copyright />
             </Box>
-            <div>Welcome Page</div>
+            <div>About Page</div>
             <Link component={NextLink} href="/">To Home page</Link>
             {/* <Link href="/">
                 To Home page

@@ -6,112 +6,54 @@ import Link from '@mui/material/Link';
 // import * as NextLink from 'next/link';
 import { Link as NextLink } from 'next/link';
 
+import Box from '@mui/material/Box';
+import Button from '@mui/material/Button';
+import Tagline from '@/components/Tageline';
+import Copyright from '@/components/Copyright';
 
 const label = { inputProps: { "aria-label": "Switch demo" } };
 
 export default function Home() {
   return (
-    <main className={styles.main}>
-      <div className="{styles.container}">
-        <div className={styles.flowStart}>
-          <span>With default Theme:</span>
-          <Switch {...label} defaultChecked />
-          <Switch {...label} />
-          <Switch {...label} disabled defaultChecked />
-          <CustomSlider warning={true} />
-          <CustomSlider warning={false} />
-          <Link component={NextLink} href="/about">To About page</Link>
-          {/* <Link href="/about">
-          To About page
-        </Link> */}
-        </div>
-      </div>
-      <div className={styles.description}>
-        <p>
-          Get started by editing&nbsp;
-          <code className={styles.code}>app/page.js</code>
-        </p>
-        <div>
-          <a
-            href="https://vercel.com?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            By{" "}
-            <Image
-              src="/vercel.svg"
-              alt="Vercel Logo"
-              className={styles.vercelLogo}
-              width={100}
-              height={24}
-              priority
-            />
-          </a>
-        </div>
-      </div>
+    <main className={styles.container}>
+      <Box
+        sx={{
+          my: 4,
+          display: 'flex',
+          flexDirection: 'column',
+          justifyContent: 'center',
+          alignItems: 'center',
+        }}
+      >
 
-      <div className={styles.center}>
-        <Image
-          className={styles.logo}
-          src="/next.svg"
-          alt="Next.js Logo"
-          width={180}
-          height={37}
-          priority
+        <Box
+          sx={{
+            p: 2,
+            borderRadius: 8,
+            bgcolor: '#D8D8D8',
+            width: '128px',
+            height: '128px',
+            display: 'grid',
+            gridTemplateColumns: { md: '1fr 1fr' },
+            gap: 2,
+          }}
         />
-      </div>
-
-      <div className={styles.grid}>
-        <a
-          href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2>
-            Docs <span>-&gt;</span>
-          </h2>
-          <p>Find in-depth information about Next.js features and API.</p>
-        </a>
-
-        <a
-          href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2>
-            Learn <span>-&gt;</span>
-          </h2>
-          <p>Learn about Next.js in an interactive course with&nbsp;quizzes!</p>
-        </a>
-
-        <a
-          href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2>
-            Templates <span>-&gt;</span>
-          </h2>
-          <p>Explore starter templates for Next.js.</p>
-        </a>
-
-        <a
-          href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2>
-            Deploy <span>-&gt;</span>
-          </h2>
-          <p>
-            Instantly deploy your Next.js site to a shareable URL with Vercel.
-          </p>
-        </a>
-      </div>
+        <h1 sx={{ mb: 2 }}>
+          8 Hope
+        </h1>
+        <Tagline />
+        <Box sx={{ maxWidth: 'sm' }}>
+          <Button sx={{ mb: 2 }} variant="contained" component={NextLink} href="/content">
+            Get Started
+          </Button>
+        </Box>
+        <Copyright />
+      </Box>
+      <div>Welcome Page</div>
+      <Link component={NextLink} href="/">To Home page</Link>
+      {/* <Link href="/">
+                To Home page
+            </Link> */}
     </main>
   );
 }

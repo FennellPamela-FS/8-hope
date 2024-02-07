@@ -1,4 +1,4 @@
 
-const API_KEY = process.env.API_Key;
+const API_KEY = process.env.API_KEY;
 module.exports = API_KEY;
 

@@ -11,7 +11,7 @@ import MenuIcon from '@mui/icons-material/Menu';
 // import * as NextLink from 'next/link';
 import { Link as NextLink } from 'next/link';
 
-const pages = ['Home', 'about', 'welcome', 'Contact'];
+const pages = ['welcome'];
 
 export default function ButtonAppBar() {
     return (
@@ -19,7 +19,7 @@ export default function ButtonAppBar() {
             <AppBar position="static">
                 <Toolbar>
                     <Typography variant="h5" component="div" sx={{ flexGrow: 1 }}>
-                        Your Logo
+                        8 Hope
                     </Typography>
                     <Box sx={{ flexGrow: 1, display: { xs: 'none', md: 'flex' } }}>
                         {pages.map((page) => (
