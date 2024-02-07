@@ -56,6 +56,18 @@ Each week I will summarize my milestone activity and progress by writing a stand
 <br>
 🔮 Next Steps - Address critical issues first. Save data from API into DB, State Management with Zustand, Finish all views.
 
+<br>
+
+### Week 4
+
+⚙️ Overview - Project Delivery
+<br>
+🌵 Challenges - Effectively connecting the frontend with the backend, which required a deeper understanding of Mongoose and the flow of data between layers. Additionally, time management became a concern due to the size and scope of tasks assigned.  
+<br>
+🏆 Accomplishments - During the project initiation phase, I successfully implemented the core idea for the 8Hope app and developed a compelling 30-second pitch. Progress was made in setting up the backend database connection and integrating API.Bible.
+<br>
+🔮 Next Steps - I plan to continue refining the frontend experience, focusing on user interaction and interface design, while maintaining a strong backend infrastructure.
+
 
 
 
