@@ -10,22 +10,12 @@ const {
 } = require('../services/verseDayService');
 const verseDayRouter = express.Router();
 
-// // connect with database object
-// const dbo = require('../db/conn')
+const cors = require('cors');
 
-// // convert the id from string to ObjectID fro the _id
-// const mongoose = require('mongoose');
-// const ObjectId = mongoose.Types.ObjectId;
+verseDayRouter.use(cors());
+verseDayRouter.use(express.json());
 
-
-// const dogRouter = express.Router();
-
-// const cors = require('cors');
-
-// verseDayRouter.use(cors());
-// verseDayRouter.use(express.json());
-
-verseDayRouter.get('/vod', (req, res, next) => {
+verseDayRouter.get('/', (req, res, next) => {
     verseDayService()
         .then(result => {
             res.status(200).json(result.data);
@@ -41,6 +31,25 @@ verseDayRouter.get('/vod', (req, res, next) => {
     console.log('Inside Verse of the Day Router')
 
 });
+
+verseDayRouter.get('/:verseId', (req, res, next) => {
+    const verseId = req.params.verseId;
+    verseDayService(verseId)
+        .then(result => {
+            res.status(200).json(result.data);
+        })
+        .catch(err => {
+            res.status(500).json({
+                error: {
+                    message: err.message,
+                    method: req.method
+                },
+            });
+        });
+    console.log('Inside Verse of the Day Router by VerseId')
+    console.log(verseId);
+
+})
 
 // verseDayRouter.get('/:name', (req, res, next) => {
 //     verseDayServiceByName(req.params.name)
@@ -58,21 +67,21 @@ verseDayRouter.get('/vod', (req, res, next) => {
 //         });
 // });
 
-verseDayRouter.get('/vodr', (req, res, next) => {
-    getResults()
-        .then(result => {
-            res.status(200).json({
-                result: result.data
-            });
-        })
-        .catch(err => {
-            res.status(500).json({
-                error: {
-                    message: err.message
-                },
-            });
-        });
-});
+// verseDayRouter.get('/vodr', (req, res, next) => {
+//     getResults()
+//         .then(result => {
+//             res.status(200).json({
+//                 result: result.data
+//             });
+//         })
+//         .catch(err => {
+//             res.status(500).json({
+//                 error: {
+//                     message: err.message
+//                 },
+//             });
+//         });
+// });
 
 // verseDayRouter.get('/:id', (req, res, next) => {
 //     verseDayServiceById(req.params.id)
