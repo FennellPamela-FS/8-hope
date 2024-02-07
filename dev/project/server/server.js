@@ -9,30 +9,47 @@ const axios = require('axios');
 const port = process.env.PORT || 5000;
 
 // import routes
-// const verseDayRouter = require('./routes/verseDayRouter');
-// const verseRouter = require('./routes/verseRouter');
-const bibleRoutes = require('./routes/bibleRoutes');
+const verseDayRouter = require('./routes/verseDayRouter');
+const verseRouter = require('./routes/verseRouter');
+// const bibleRoutes = require('./routes/bibleRoutes');
 
 
 const app = express();
 
+// Middleware for JSON, CORS
 app.use(cors())
 app.use(express.json())
 // app.use(require('./routes/verseDayRouter'))
 // app.use(require('./routes/verseRouter.js'))
-app.use(bibleRoutes);
 
 
+
+// Verse of the Day Router (verseDayRouter)
+app.use('/api/vod', verseDayRouter);
+
+// Verse API Route
+app.use('/api/verse', verseRouter);
+
+// VerseId API Route
+// app.use('/api/verseId', verseIdRouter);
+
+
+
+
+// Bible API Route
+// app.use('/bible', bibleRoutes);
+
+
+
+
+
+// Get Routes 
 app.get('/', (req, res) => {
-    // res.status(200).json({ message: `Service us up on ${port}!` })
-    res.send(`Hello from Express on ${port}!`)
+    res.status(200).json({ message: `Service us up on ${port}!` })
+    // res.send(`Hello from Express on ${port}!`)
 })
 
-// Router: verseDay 
-// app.use('/vod', verseDayRouter);
-// app.use('/verse', verseRouter);
-app.use('/bible', bibleRoutes);
-
+// Error handling
 app.use((req, res, next) => {
     const error = new Error("Not Found");
     error.status = 404;
