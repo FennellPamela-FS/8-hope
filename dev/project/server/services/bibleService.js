@@ -26,8 +26,6 @@ const bibleService = async () => {
 }
 
 
-
-
 module.exports = {
     bibleService
 };

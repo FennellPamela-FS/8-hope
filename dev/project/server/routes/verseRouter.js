@@ -1,11 +1,15 @@
 const express = require("express");
 const {
     verseService,
-    // verseDayServiceById,
+    verseServiceById,
     // verseDayServiceByName
 } = require('../services/verseService');
 const verseRouter = express.Router();
 
+const cors = require('cors');
+const { default: axios } = require("axios");
+
+verseRouter.use(cors());
 verseRouter.use(express.json());
 
 verseRouter.get('/', (req, res, next) => {
@@ -24,21 +28,23 @@ verseRouter.get('/', (req, res, next) => {
 
 })
 
-// app.get('/verse', async (req, res) => {
-//     try {
-//         const verseID = req.query.verseID;
-//         const response = await axios.get(`${process.env.BASE_URL}/${process.env.BIBLE_ID}/search?query=${verseID}`, {
-//             headers: {
-//                 'api-key': process.env.API_KEY
-//             }
-//         });
-//         const { data, meta } = response.data;
-//         res.json({ data, meta });
-//     } catch (error) {
-//         console.error(error);
-//         res.status(500).json({ error: 'An error occurred while fetching the verse.' });
-//     }
+verseRouter.get('/:verseId', (req, res, next) => {
+    const verseId = req.params.verseId;
+    verseServiceById(verseId)
+        .then(result => {
+            res.status(200).json(result.data);
+        })
+        .catch(err => {
+            res.status(500).json({
+                error: {
+                    message: err.message,
+                    method: req.method
+                },
+            });
+        });
+    console.log('Inside Verse Router')
+    console.log(verseId);
+})
 
-// })
 
 module.exports = verseRouter;
