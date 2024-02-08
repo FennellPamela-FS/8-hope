@@ -47,7 +47,7 @@ export default function ButtonAppBar() {
                             </Button>
                         ))}
                     </Box>
-                    <Button color="inherit">Login</Button>
+                    <Button color="inherit" component={NextLink} href="/login">Login</Button>
                 </Toolbar>
             </AppBar>
         </Box >
