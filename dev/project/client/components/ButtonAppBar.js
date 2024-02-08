@@ -11,7 +11,20 @@ import MenuIcon from '@mui/icons-material/Menu';
 // import * as NextLink from 'next/link';
 import { Link as NextLink } from 'next/link';
 
-const pages = ['welcome'];
+const pages = [
+    { name: 'Home', link: '/' },
+    { name: 'Welcome', link: '/welcome' },
+    { name: 'About', link: '/about' },
+    { name: 'Start', link: '/content' },
+    { name: 'Blog', link: '/opening' },
+    { name: 'Personalize', link: '/personalize' },
+];
+
+const settings = [
+    { name: 'Profile', link: '/profile' },
+    { name: 'Account', link: '/personalize' },
+    { name: 'Logout', link: '/logout' },
+];
 
 export default function ButtonAppBar() {
     return (
@@ -24,12 +37,12 @@ export default function ButtonAppBar() {
                     <Box sx={{ flexGrow: 1, display: { xs: 'none', md: 'flex' } }}>
                         {pages.map((page) => (
                             <Button
-                                component={NextLink} href={`/${page}`}
-                                key={page}
+                                key={page.name}
+                                component={NextLink} href={page.link}
                                 sx={{ my: 2, color: 'white', display: 'block' }}
                             >
                                 <Typography variant='h6'>
-                                    {page}
+                                    {page.name}
                                 </Typography>
                             </Button>
                         ))}

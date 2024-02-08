@@ -6,9 +6,12 @@ import Link from '@mui/material/Link';
 // import * as NextLink from 'next/link';
 import { Link as NextLink } from 'next/link';
 
+import Container from '@mui/material/Container';
+import Typography from '@mui/material/Typography';
+
 import Box from '@mui/material/Box';
 import Button from '@mui/material/Button';
-import Tagline from '@/components/Tageline';
+import Tagline from '@/components/Tagline';
 import Copyright from '@/components/Copyright';
 
 const label = { inputProps: { "aria-label": "Switch demo" } };
@@ -16,6 +19,25 @@ const label = { inputProps: { "aria-label": "Switch demo" } };
 export default function Home() {
   return (
     <main className={styles.container}>
+      <Container maxWidth="lg">
+        <Box
+          sx={{
+            my: 4,
+            display: 'flex',
+            flexDirection: 'column',
+            justifyContent: 'center',
+            alignItems: 'center',
+          }}
+        >
+          <Typography variant="h4" component="h1" sx={{ mb: 2 }}>
+            Material UI - Next.js App Router example in JavaScript
+          </Typography>
+          <Link href="/about" color="secondary" component={NextLink}>
+            Go to the about page
+          </Link>
+          <Copyright />
+        </Box>
+      </Container>
       <Box
         sx={{
           my: 4,

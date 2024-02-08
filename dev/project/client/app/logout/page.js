@@ -16,7 +16,7 @@ import PrayerWatchTimesList from '@/components/PrayerWatchTimesList';
 // const watchTime = ['1', '2', '3', '4', '5', '6', '7', '8'];
 
 
-export default function Content() {
+export default function Logout() {
     return (
         <div className={styles.container}>
             <Box
