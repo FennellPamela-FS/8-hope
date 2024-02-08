@@ -35,7 +35,7 @@ const PrayerWatchTimesList = () => {
                 <Box
                     // className={styles.avBox}
                     key={index}
-                    sx={{ color: 'blue', display: 'block' }}
+                    sx={{ maxWidth: 'sm', color: 'blue', display: 'block' }}
                 >
                     <Button sx={{ mb: 2 }} variant="contained" component={NextLink} href={`/${prayerWatchRoutes[timeRange]}`}>
                         <Typography variant='h6'>
