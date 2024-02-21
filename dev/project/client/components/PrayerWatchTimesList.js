@@ -10,7 +10,21 @@ import { Box, Button, Typography } from '@mui/material';
 import { Link as NextLink } from 'next/link';
 
 const PrayerWatchTimesList = () => {
+
     const { prayerWatchTimes } = usePrayerWatchTimesStore();
+    // Define your prayer watches data here or import it from another file
+    const prayerWatches = [
+        // prayer watches data
+        {
+            id: 'watch-one',
+            title: 'First Watch',
+            timeRange: '6:00 PM - 9:00 PM',
+            description: 'Contemplation and laying foundations in prayer.',
+            scriptureReference: 'Psalm 92:1-2 (NIV)',
+            // add additional details for this prayer watch
+            link: '/watch-one',
+        },
+    ];
 
     // Define a mapping of prayer watch times to route paths
     const prayerWatchRoutes = {
@@ -26,10 +40,12 @@ const PrayerWatchTimesList = () => {
     };
 
 
+
+
     return (
         <div>
 
-            {prayerWatchTimes.map((timeRange, index) => (
+            {/* {prayerWatchTimes.map((timeRange, index) => (
                 // <li key={index}>{timeRange}</li>
 
                 <Box
@@ -37,7 +53,7 @@ const PrayerWatchTimesList = () => {
                     key={index}
                     sx={{ color: 'blue', display: 'block' }}
                 >
-                    <Button sx={{ mb: 2 }} variant="contained" component={NextLink} href={`/${prayerWatchRoutes[timeRange]}`}>
+                    <Button sx={{ mb: 2 }} variant="contained" component={NextLink} href={`/${prayerWatchRoutes[watch.timeRange.link]}`}>
                         <Typography variant='h6'>
                             {timeRange}
                         </Typography>
@@ -45,7 +61,17 @@ const PrayerWatchTimesList = () => {
                 </Box>
 
             ))
-            }
+            } */}
+
+            {prayerWatches.map((watch) => (
+                <Box key={watch.id} sx={{ color: 'blue', display: 'block' }}>
+                    <Button sx={{ mb: 2 }} variant="contained" component={NextLink} href={`${watch.link}`}>
+                        <Typography variant='h6'>
+                            {watch.timeRange}
+                        </Typography>
+                    </Button>
+                </Box>
+            ))}
 
 
         </div >
