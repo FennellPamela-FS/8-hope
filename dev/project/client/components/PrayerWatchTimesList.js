@@ -13,7 +13,7 @@ const PrayerWatchTimesList = () => {
 
     const { prayerWatchTimes } = usePrayerWatchTimesStore();
     // Define your prayer watches data here or import it from another file
-    const prayerWatches = [
+    const prayerWatchRoutes = [
         // prayer watches data
         {
             id: 'watch-one',
@@ -26,18 +26,18 @@ const PrayerWatchTimesList = () => {
         },
     ];
 
-    // Define a mapping of prayer watch times to route paths
-    const prayerWatchRoutes = {
-        '6:00 PM - 9:00 PM': 'watch-one',
-        '9:00 PM - 12:00 AM': 'watch-two',
-        '12:00 AM - 3:00 AM': 'watch-three',
-        '3:00 AM - 6:00 AM': 'watch-four',
-        '6:00 AM - 9:00 AM': 'watch-five',
-        '9:00 AM - 12:00 PM': 'watch-six',
-        '12:00 PM - 3:00 PM': 'watch-seven',
-        '3:00 PM - 6:00 PM': 'watch-eight',
-        // ... add other mappings here
-    };
+    // // Define a mapping of prayer watch times to route paths
+    // const prayerWatchRoutes = {
+    //     '6:00 PM - 9:00 PM': 'watch-one',
+    //     '9:00 PM - 12:00 AM': 'watch-two',
+    //     '12:00 AM - 3:00 AM': 'watch-three',
+    //     '3:00 AM - 6:00 AM': 'watch-four',
+    //     '6:00 AM - 9:00 AM': 'watch-five',
+    //     '9:00 AM - 12:00 PM': 'watch-six',
+    //     '12:00 PM - 3:00 PM': 'watch-seven',
+    //     '3:00 PM - 6:00 PM': 'watch-eight',
+    //     // ... add other mappings here
+    // };
 
 
 
@@ -63,7 +63,7 @@ const PrayerWatchTimesList = () => {
             ))
             } */}
 
-            {prayerWatches.map((watch) => (
+            {prayerWatchRoutes.map((watch) => (
                 <Box key={watch.id} sx={{ color: 'blue', display: 'block' }}>
                     <Button sx={{ mb: 2 }} variant="contained" component={NextLink} href={`${watch.link}`}>
                         <Typography variant='h6'>
