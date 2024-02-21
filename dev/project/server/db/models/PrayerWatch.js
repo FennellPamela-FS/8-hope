@@ -6,6 +6,7 @@ const prayerWatchSchema = new mongoose.Schema({
     timeRange: String,
     description: String,
     scriptureReference: String,
+    link: String,
 });
 
 module.exports = mongoose.model('PrayerWatch', prayerWatchSchema);
