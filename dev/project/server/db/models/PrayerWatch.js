@@ -6,6 +6,9 @@ const prayerWatchSchema = new mongoose.Schema({
     timeRange: String,
     description: String,
     scriptureReference: String,
+    jewishAlternative: String,
+    romanAlternative: String,
+    learnMore: String,
     link: String,
 });
 
