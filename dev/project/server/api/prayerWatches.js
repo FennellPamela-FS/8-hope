@@ -6,13 +6,14 @@
 
 const axios = require('axios');
 const dbConn = require('../db/conn');
-const { PrayerWatch } = require('../db/models/PrayerWatch');
+const PrayerWatch = require('../db/models/PrayerWatch');
 
 const handler = async (req, res) => {   // returns a Promise
     try {
-        await dbConn.sync();    //confirm db connection
+        await dbConn();    //confirm db connection
 
         const prayerWatches = await PrayerWatch.find({});   // fetches all prayer watches from the database
+        console.log(prayerWatches);
         res.status(200).json({ success: true, data: prayerWatches });
 
     } catch (error) {
