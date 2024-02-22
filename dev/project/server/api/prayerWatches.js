@@ -1,4 +1,10 @@
 // api/prayerWatches.js (on the server)
+
+// This file will be used to handle 
+// requests made from the client side 
+// to the Node.js server.
+
+const axios = require('axios');
 const dbConn = require('../db/conn');
 const { PrayerWatch } = require('../db/models/PrayerWatch');
 
