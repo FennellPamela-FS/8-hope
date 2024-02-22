@@ -12,28 +12,24 @@ const PrayerWatchTimesList = () => {
     const { prayerWatchTimes, setPrayerWatches } = usePrayerWatchTimesStore();
     // Define your prayer watches data here or import it from another file
 
-    const apiPrayerWatches = 'http://localhost:8000/api/prayerWatches';
+    // const apiPrayerWatches = 'http://localhost:8000/api/prayerWatches';
 
-    const fetchPrayerWatches = async () => {
-        try {
-            const res = await fetch(`${apiPrayerWatches}`);
-            const data = await res.json();
-            setPrayerWatches(data); // Update the prayerWatchTimes state with the fetched data
-            console.log(data); // Log the data object to the console for debugging purposes
-        } catch (error) {
-            console.error('Failed to fetch prayer watch', error);
-        }
-    };
+    // const fetchPrayerWatches = async () => {
+    //     try {
+    //         const res = await fetch(`${apiPrayerWatches}`);
+    //         const data = await res.json();
+    //         setPrayerWatches(data); // Update the prayerWatchTimes state with the fetched data
+    //         console.log(data); // Log the data object to the console for debugging purposes
+    //     } catch (error) {
+    //         console.error('Failed to fetch prayer watch', error);
+    //     }
+    // };
 
-    useEffect(() => {
-        fetchPrayerWatches(); // Fetch prayer watches on component mount
-        // console.log('prayerWatchTimes', prayerWatchTimes); // Log the prayerWatchTimes state for debugging purposes
-        // console.log('setPrayerWatches', setPrayerWatches); // Log the setPrayerWatches state for debugging purposes
-        // return () => {
-        //     setPrayerWatches({}); // Clear the prayerWatchTimes state on component unmount
-        // };  // Clean up the prayerWatchTimes state on component unmount
-        // // eslint-disable-next-line react-hooks/exhaustive-deps
-    }, [setPrayerWatches]);
+    // useEffect(() => {
+    //     fetchPrayerWatches();
+    // }, [setPrayerWatches]);
+
+
 
     return (
         <div>
