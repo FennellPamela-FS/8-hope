@@ -2,6 +2,7 @@
 import React from 'react';
 import { Card, CardActions, CardContent, Button, Typography } from '@mui/material';
 import Link from '@mui/material/Link';
+import SeeTimes from './SeeTimes';
 // import * as NextLink from 'next/link';
 // import { Link as NextLink } from 'next/link';
 
@@ -69,9 +70,7 @@ const Fourth = () => {
                 </Link>
                 {/* Additional content or functionality goes here */}
             </CardContent>
-            <CardActions>
-                <Button size="small">Learn More</Button>
-            </CardActions>
+            <SeeTimes />
         </Card>
     );
 };

@@ -7,7 +7,7 @@ import Button from '@mui/material/Button';
 import Link from '@mui/material/Link';
 // import * as NextLink from 'next/link';
 import { Link as NextLink } from 'next/link';
-import Tagline from '@/components/Tageline';
+import Tagline from '@/components/Tagline';
 import Copyright from '@/components/Copyright';
 import CheckCircleIcon from '@mui/icons-material/CheckCircle';
 
