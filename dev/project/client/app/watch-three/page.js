@@ -9,6 +9,7 @@ import { Link as NextLink } from 'next/link';
 import ProTip from '@/components/ProTip';
 import Copyright from '@/components/Copyright';
 import Third from '@/app/components/Third';
+import PrayerWatchDetails from '@/components/PrayerWatchDetails';
 
 // docs / wires /05 Customization3.png
 export default function WatchThree() {
@@ -23,10 +24,8 @@ export default function WatchThree() {
                     alignItems: 'center',
                 }}
             >
-                <h1 sx={{ mb: 2 }}>
-                    Watch Three: 12 AM - 3 AM
-                </h1>
-                <Third />
+
+                <PrayerWatchDetails link="watch-three" />
                 <Box sx={{ maxWidth: 'sm', mt: 1.5 }} >
                     <Button variant="contained" component={NextLink} href="/finish">
                         Continue

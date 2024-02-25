@@ -1,17 +1,30 @@
 // communicate with API.Bible
 const axios = require('axios');
 const apiKey = require('../api/apiKey');
+const cors = require('cors');
+
+const express = require('express');
+
+const app = express();
 require('dotenv').config();
 
-const options = {
-    headers: {
-        'api-key': `${apiKey}`
-    }
-}
+app.use(cors());
+app.use(express.json());
+
+
 
 const url = process.env.BASE_URL;
 const version = process.env.BIBLE_ID;
 const hardVerse = 'JHN.3.16';
+
+const options = {
+    method: 'GET',
+    url: url,
+    headers: {
+        'api-key': apiKey,
+    }
+}
+
 // const verseId = 'JHN.3.16';
 // const verseDayURL = `${url}/${version}/search?query=${verseID}`;
 
@@ -19,7 +32,8 @@ const hardVerse = 'JHN.3.16';
 
 
 const verseService = async () => {
-    console.log("Bible Service on Backend");
+    console.log("Bible Verse Service on Backend");
+    // return await axios.get(`${url}/${version}/verses/${hardVerse}`, options);
     return await axios.get(`${url}/${version}/verses/${hardVerse}`, options);
 }
 
