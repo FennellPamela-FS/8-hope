@@ -14,12 +14,12 @@ import { Link as NextLink } from 'next/link';
 import Image from 'next/image';
 
 const pages = [
-    { name: 'Home', link: '/' },
+    // { name: 'Home', link: '/' },
     { name: 'Welcome', link: '/welcome' },
-    { name: 'About', link: '/about' },
-    { name: 'Start', link: '/content' },
-    { name: 'Blog', link: '/opening' },
-    { name: 'Personalize', link: '/personalize' },
+    // { name: 'About', link: '/about' },
+    // { name: 'Start', link: '/content' },
+    // { name: 'Blog', link: '/opening' },
+    // { name: 'Personalize', link: '/personalize' },
 ];
 
 const settings = [
@@ -44,17 +44,9 @@ export default function ButtonAppBar() {
                     <div component="div" sx={{ flexGrow: 1 }}> </div>
                     <Box sx={{ flexGrow: 1, display: { xs: 'none', md: 'flex' } }}>
                         {pages.map((page) => (
-<<<<<<< HEAD
                             <Button
-                                key={page.name}
-                                component={NextLink} href={page.link}
-=======
-                            <Button className={classNames(page.current ? 'bg-gray-900 text-white' : 'text-gray-300 hover:bg-gray-700 hover:text-white',
-                                'rounded-md px-3 py-2 text-sm font-medium')}
-                                aria-current={page.current ? 'page' : undefined}
-                                component={NextLink} href={`/${page}`}
+                                component={NextLink} href={`${page.link}`}
                                 key={page}
->>>>>>> models_shemas
                                 sx={{ my: 2, color: 'white', display: 'block' }}
                             >
                                 <Typography variant='h6'>
@@ -63,9 +55,6 @@ export default function ButtonAppBar() {
                             </Button>
                         ))}
                     </Box>
-<<<<<<< HEAD
-                    <Button color="inherit" component={NextLink} href="/login">Login</Button>
-=======
                     <button
                         type="button"
                         className="relative rounded-full bg-gray-800 p-1 text-gray-400 hover:text-white focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-gray-800"
@@ -75,9 +64,8 @@ export default function ButtonAppBar() {
                         <NotificationsIcon className="h-6 w-6" aria-hidden="true" />
                     </button>
                     <Button component={NextLink} href={`/login`} color="inherit">Login</Button>
->>>>>>> models_shemas
-                </Toolbar>
-            </AppBar>
+                </Toolbar >
+            </AppBar >
         </Box >
     );
 }
