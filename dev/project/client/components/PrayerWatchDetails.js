@@ -21,10 +21,14 @@ const PrayerWatchDetails = ({ link }) => {
         <div>
             {/* title */}
             <h1 sx={{ mb: 2 }}>
-                {prayerWatch.title} (The Morning Watch)
+                {prayerWatch.title}
             </h1>
             <Card sx={{ minWidth: 275, maxWidth: 500 }} variant="outlined">
                 <CardContent key={prayerWatch.link}>
+                    {/* subtitle  */}
+                    <Typography sx={{ mb: 1.5 }} variant="subtitle1">
+                        {prayerWatch.subtitle}
+                    </Typography>
                     {/* subtitle  */}
                     <Typography sx={{ mb: 1.5 }} variant="subtitle1">
                         {prayerWatch.timeRange}

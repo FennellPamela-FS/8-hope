@@ -24,9 +24,7 @@ export default function WatchThree() {
                     alignItems: 'center',
                 }}
             >
-                <h1 sx={{ mb: 2 }}>
-                    Watch Three: 12 AM - 3 AM
-                </h1>
+
                 <PrayerWatchDetails link="watch-three" />
                 <Box sx={{ maxWidth: 'sm', mt: 1.5 }} >
                     <Button variant="contained" component={NextLink} href="/finish">

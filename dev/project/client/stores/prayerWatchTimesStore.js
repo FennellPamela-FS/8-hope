@@ -15,6 +15,7 @@ export const usePrayerWatchTimesStore = create(set => ({
     prayerWatchesData: [
         {
             title: 'First Watch',
+            subtitle: 'The Evening Watch',
             timeRange: '6:00 PM -  9:00 PM',
             description: 'Prayers of thanksgiving for the day\'s blessings. Reflection on God\'s faithfulness throughout the day.',
             scriptureReference: 'Psalm  92:1-2 (NIV)',
@@ -26,6 +27,7 @@ export const usePrayerWatchTimesStore = create(set => ({
         },
         {
             title: 'Second Watch',
+            subtitle: 'The Late-Night Watch OR Second Watch of the Night',
             timeRange: '9:00 PM -  12:00 AM',
             description: 'Prayers for protection during the night. Petitions for guidance and wisdom in dreams.',
             scriptureReference: 'Psalm  16:7 (NIV)',
@@ -37,6 +39,7 @@ export const usePrayerWatchTimesStore = create(set => ({
         },
         {
             title: 'Third Watch',
+            subtitle: 'The Breaking of Day Watch',
             timeRange: '12:00 AM -  3:00 AM',
             description: 'Prayers for spiritual awakening and renewal. Confession of sins and repentance.',
             scriptureReference: 'Psalm  119:147-148 (NIV)',
@@ -48,6 +51,7 @@ export const usePrayerWatchTimesStore = create(set => ({
         },
         {
             title: 'Fourth Watch',
+            subtitle: 'The Morning Watch',
             timeRange: '3:00 AM -  6:00 AM',
             description: 'Prayers of praise for the dawn of a new day. Petitions for strength and courage to face the day\'s challenges.',
             scriptureReference: 'Psalm  143:8 (NIV)',
@@ -59,8 +63,12 @@ export const usePrayerWatchTimesStore = create(set => ({
         },
         {
             title: 'Fifth Watch',
+            subtitle: 'The Early Morning Watch',
             timeRange: '6:00 AM -  9:00 AM',
-            description: 'Prayers for guidance and direction in daily tasks. Intercession for family, friends, and community.',
+            description: [
+                'Prayers for guidance and direction in daily tasks.',
+                'Intercession for family, friends, and community.',
+            ],
             scriptureReference: 'Psalm  5:3 (NIV)',
             jewishTitle: 'First Watch of the Day, marking the beginning of daylight.',
             romanTitle: 'First Watch of the Day," indicating the start of the morning hours.',
@@ -70,6 +78,7 @@ export const usePrayerWatchTimesStore = create(set => ({
         },
         {
             title: 'Sixth Watch',
+            subtitle: '',
             timeRange: '9:00 AM -  12:00 PM',
             description: 'Prayers for productivity and effectiveness in work or studies. Thanksgiving for provision and sustenance.',
             scriptureReference: 'Psalm  90:14 (NIV)',
@@ -81,6 +90,7 @@ export const usePrayerWatchTimesStore = create(set => ({
         },
         {
             title: 'Seventh Watch',
+            subtitle: '',
             timeRange: '12:00 PM -  3:00 PM',
             description: 'Prayers for rest and rejuvenation during the day. Intercession for those in need of healing or comfort.',
             scriptureReference: 'Isaiah  58:10 (NIV)',
@@ -92,6 +102,7 @@ export const usePrayerWatchTimesStore = create(set => ({
         },
         {
             title: 'Eighth Watch',
+            subtitle: '',
             timeRange: '3:00 PM -  6:00 PM',
             description: 'Prayers for perseverance and endurance until the end of the day. Petitions for reconciliation and peace in relationships.',
             scriptureReference: 'Psalm  55:17 (NIV)',
