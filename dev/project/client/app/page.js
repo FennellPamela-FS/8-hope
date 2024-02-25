@@ -13,6 +13,7 @@ import Box from '@mui/material/Box';
 import Button from '@mui/material/Button';
 import Tagline from '@/components/Tagline';
 import Copyright from '@/components/Copyright';
+import Logo from "@/components/Logo";
 
 const label = { inputProps: { "aria-label": "Switch demo" } };
 
@@ -47,7 +48,6 @@ export default function Home() {
           alignItems: 'center',
         }}
       >
-
         <Box
           sx={{
             p: 2,
@@ -60,9 +60,10 @@ export default function Home() {
             gap: 2,
           }}
         />
-        <h1 sx={{ mb: 2 }}>
+        <Logo />
+        {/*         <h1 sx={{ mb: 2 }}>
           8 Hope
-        </h1>
+        </h1> */}
         <Tagline />
         <Box sx={{ maxWidth: 'sm' }}>
           <Button sx={{ mb: 2 }} variant="contained" component={NextLink} href="/content">
