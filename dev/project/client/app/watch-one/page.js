@@ -9,6 +9,7 @@ import { Link as NextLink } from 'next/link';
 import ProTip from '@/components/ProTip';
 import Copyright from '@/components/Copyright';
 import First from '@/app/components/First';
+import PrayerWatchDetails from '@/components/PrayerWatchDetails';
 
 // docs / wires /05 Customization3.png
 export default function WatchOne() {
@@ -23,10 +24,8 @@ export default function WatchOne() {
                     alignItems: 'center',
                 }}
             >
-                <h1 sx={{ mb: 2 }}>
-                    Watch One: 6 PM - 9 PM
-                </h1>
-                <First />
+                <PrayerWatchDetails link="watch-one" />
+                {/* <First /> */}
                 <Box sx={{ maxWidth: 'sm', mt: 1.5 }} >
                     <Button variant="contained" component={NextLink} href="/finish">
                         Continue

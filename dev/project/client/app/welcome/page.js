@@ -14,6 +14,7 @@ import Avatar from '@mui/material/Avatar';
 import Stack from '@mui/material/Stack';
 import { deepOrange, deepPurple } from '@mui/material/colors';
 import { Container } from '@mui/material';
+import Logo from '@/components/Logo';
 
 export default function Welcome() {
     return (
@@ -27,7 +28,6 @@ export default function Welcome() {
                     alignItems: 'center',
                 }}
             >
-
                 <Box
                     sx={{
                         p: 2,
@@ -40,9 +40,7 @@ export default function Welcome() {
                         gap: 2,
                     }}
                 />
-                <h1 sx={{ mb: 2 }}>
-                    8 Hope
-                </h1>
+                <Logo />
                 <Tagline />
                 <Box sx={{ maxWidth: 'sm' }}>
                     <Button sx={{ mb: 2 }} variant="contained" component={NextLink} href="/content">
