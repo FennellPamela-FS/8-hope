@@ -1,4 +1,4 @@
-// api/prayerWatches.js (on the server)
+// api/prayerWatches (on the server)
 
 // This file will be used to handle 
 // requests made from the client side 
@@ -8,7 +8,7 @@ const axios = require('axios');
 const dbConn = require('../db/conn');
 const PrayerWatch = require('../db/models/PrayerWatch');
 
-const handler = async (req, res) => {   // returns a Promise
+const pwHandler = async (req, res) => {   // returns a Promise
     try {
         await dbConn();    //confirm db connection
 
@@ -22,5 +22,5 @@ const handler = async (req, res) => {   // returns a Promise
 };
 
 module.exports = {
-    handler,
+    pwHandler,
 }

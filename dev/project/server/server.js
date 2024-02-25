@@ -11,6 +11,7 @@ const port = process.env.PORT || 5000;
 // import routes
 const verseDayRouter = require('./routes/verseDayRouter');
 const verseRouter = require('./routes/verseRouter');
+// const watchRouter = require('./routes/watchRouter');
 // const bibleRoutes = require('./routes/bibleRoutes');
 
 
@@ -23,6 +24,7 @@ app.use(express.json())
 // app.use(require('./routes/verseRouter.js'))
 
 
+// app.use('/api/watches', watchRouter);
 
 // Verse of the Day Router (verseDayRouter)
 app.use('/api/vod', verseDayRouter);

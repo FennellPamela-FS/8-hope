@@ -9,6 +9,8 @@ import { Link as NextLink } from 'next/link';
 import ProTip from '@/components/ProTip';
 import Copyright from '@/components/Copyright';
 import Seventh from '@/app/components/Seventh';
+import PrayerWatch from '../components/PrayerWatch';
+import PrayerWatchDetails from '@/components/PrayerWatchDetails';
 
 // docs / wires /05 Customization3.png
 export default function WatchSeven() {
@@ -26,7 +28,7 @@ export default function WatchSeven() {
                 <h1 sx={{ mb: 2 }}>
                     Watch Seven: 12 PM - 3 PM
                 </h1>
-                <Seventh />
+                <PrayerWatchDetails link="watch-seven" />
                 <Box sx={{ maxWidth: 'sm', mt: 1.5 }} >
                     <Button variant="contained" component={NextLink} href="/finish">
                         Continue
