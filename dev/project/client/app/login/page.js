@@ -11,6 +11,7 @@ import Box from '@mui/material/Box';
 import LockOutlinedIcon from '@mui/icons-material/LockOutlined';
 import Typography from '@mui/material/Typography';
 import Container from '@mui/material/Container';
+import Logo from '@/components/Logo';
 
 
 export default function SignIn() {
@@ -35,11 +36,11 @@ export default function SignIn() {
                 }}
             >
                 <Avatar sx={{ m: 1, bgcolor: 'primary' }}>
-                    <LockOutlinedIcon />
                 </Avatar>
                 <Typography component="h1" variant="h5">
                     Sign in
                 </Typography>
+                <Logo />
                 <Box component="form" noValidate sx={{ mt: 1 }}>
                     <TextField
                         margin="normal"

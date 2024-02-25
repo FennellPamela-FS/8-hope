@@ -28,18 +28,13 @@ export default function Welcome() {
                     alignItems: 'center',
                 }}
             >
-                <Box
-                    sx={{
-                        p: 2,
-                        borderRadius: 8,
-                        bgcolor: '#D8D8D8',
-                        width: '128px',
-                        height: '128px',
-                        display: 'grid',
-                        gridTemplateColumns: { md: '1fr 1fr' },
-                        gap: 2,
-                    }}
-                />
+                <Avatar sx={{
+                    m: 1, bgcolor: 'primary',
+                    gap: 2,
+                    width: '128px',
+                    height: '128px',
+                }}>
+                </Avatar>
                 <Logo />
                 <Tagline />
                 <Box sx={{ maxWidth: 'sm' }}>
